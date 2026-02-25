@@ -175,7 +175,7 @@ Answer each question thoughtfully (one solid paragraph minimum per question).
 
 ---
 
-## 3-Week Timeline
+## 3-Week Timeline (This is only a suggested cadence) 
 
 ### Week 1: Data Ingestion, Exploration, and Cleaning
 
