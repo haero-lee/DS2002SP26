@@ -1,0 +1,1001 @@
+transaction_id,date,store_id,region,category,product,storm_phase,units_sold,unit_price,revenue
+T100000,2025-09-29,ST004,South,Breakfast Foods,Instant Oatmeal,Normal,16,3.99,63.84
+T100001,2025-09-03,ST005,South,Breakfast Foods,Instant Oatmeal,Watch,11,3.99,43.89
+T100002,2025-09-23,ST003,South,Family & Leisure,Playing Cards,Normal,7,2.99,20.93
+T100003,2025-08-25,ST007,Southeast,Beverages,Orange Juice,Watch,18,4.19,75.42
+T100004,2025-09-24,ST007,Southeast,Family & Leisure,Playing Cards,Normal,7,2.99,20.93
+T100005,2025-09-26,ST009,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Watch,20,3.48,69.6
+T100006,2025-09-10,ST009,Southeast,Beverages,Bottled Water,Post-Storm,20,5.49,109.8
+T100007,2025-09-10,ST004,South,Breakfast Foods,Cereal,Normal,15,4.89,73.35
+T100008,2025-09-11,ST020,Northeast,Household,Batteries,Watch,14,8.99,125.86
+T100009,2025-09-23,ST004,South,Snacks,Chips,Normal,14,3.79,53.06
+T100010,2025-09-29,ST020,Northeast,Household,Paper Towels,Normal,7,9.29,65.03
+T100011,2025-08-24,ST002,South,Beverages,Sports Drink,Post-Storm,17,2.29,38.93
+T100012,2025-09-03,ST004,South,Snacks,Cookies,Normal,17,3.49,59.33
+T100013,2025-09-12,ST006,Southeast,Household,Flashlights,Normal,5,12.49,62.45
+T100014,2025-09-06,ST003,South,Family & Leisure,Puzzles,Normal,6,11.99,71.94
+T100015,2025-09-04,ST006,Southeast,Snacks,Cookies,Normal,16,3.49,55.84
+T100016,2025-09-29,ST018,Northeast,Beverages,Orange Juice,Normal,20,4.19,83.8
+T100017,2025-08-23,ST008,Southeast,Breakfast Foods,Cereal,Normal,10,4.89,48.9
+T100018,2025-08-24,ST007,Southeast,Family & Leisure,Puzzles,Normal,10,11.99,119.9
+T100019,2025-09-30,ST016,Northeast,Snacks,Granola Bars,Normal,6,4.39,26.34
+T100020,2025-09-05,ST005,South,Beverages,Orange Juice,Normal,18,4.19,75.42
+T100021,2025-09-05,ST019,Northeast,Snacks,Granola Bars,Normal,12,4.39,52.68
+T100022,2025-09-03,ST005,South,Family & Leisure,Playing Cards,Normal,8,2.99,23.92
+T100023,2025-08-23,ST004,South,Beverages,Orange Juice,Normal,19,4.19,79.61
+T100024,2025-10-02,ST014,Midwest,Family & Leisure,Board Games,Normal,6,19.99,119.94
+T100025,2025-09-27,ST015,Midwest,Family & Leisure,Playing Cards,Post-Storm,12,2.99,35.88
+T100026,2025-08-20,ST004,South,Family & Leisure,Playing Cards,Warning,7,2.99,20.93
+T100027,2025-09-10,ST004,South,Household,Flashlights,Normal,11,12.49,137.39
+T100028,2025-08-20,ST009,Southeast,Family & Leisure,Board Games,Normal,5,19.99,99.95
+T100029,2025-08-26,ST010,Southeast,Family & Leisure,Puzzles,Normal,11,11.99,131.89
+T100030,2025-09-12,ST006,Southeast,Family & Leisure,Puzzles,Warning,11,11.99,131.89
+T100031,2025-09-27,ST011,Midwest,Snacks,Chips,Normal,12,3.79,45.48
+T100032,2025-09-12,ST010,Southeast,Beverages,Bottled Water,Normal,23,5.49,126.27
+T100033,2025-09-25,ST003,South,Breakfast Foods,Instant Oatmeal,Normal,11,3.99,43.89
+T100034,2025-08-24,ST018,Northeast,Beverages,Bottled Water,Watch,32,5.49,175.68
+T100035,2025-09-24,ST006,Southeast,Household,Paper Towels,Warning,19,9.29,176.51
+T100036,2025-09-16,ST007,Southeast,Family & Leisure,Puzzles,Watch,7,11.99,83.93
+T100037,2025-09-08,ST013,Midwest,Household,Flashlights,Warning,15,12.49,187.35
+T100038,2025-09-17,ST004,South,Beverages,Bottled Water,Normal,24,5.49,131.76
+T100039,2025-08-21,ST019,Northeast,Family & Leisure,Board Games,Watch,6,19.99,119.94
+T100040,2025-08-20,ST003,South,Breakfast Foods,Strawberry Pop-Tarts,Normal,26,3.48,90.48
+T100041,2025-08-22,ST011,Midwest,Breakfast Foods,Instant Oatmeal,Normal,9,3.99,35.91
+T100042,2025-10-01,ST016,Northeast,Beverages,Orange Juice,Normal,20,4.19,83.8
+T100043,2025-09-25,ST019,Northeast,Snacks,Chips,Warning,19,3.79,72.01
+T100044,2025-09-15,ST007,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Watch,27,3.48,93.96
+T100045,2025-09-11,ST014,Midwest,Snacks,Cookies,Warning,17,3.49,59.33
+T100046,2025-08-23,ST004,South,Breakfast Foods,Cereal,Watch,19,4.89,92.91
+T100047,2025-08-26,ST008,Southeast,Beverages,Bottled Water,Normal,22,5.49,120.78
+T100048,2025-08-28,ST014,Midwest,Beverages,Sports Drink,Normal,18,2.29,41.22
+T100049,2025-08-24,ST015,Midwest,Family & Leisure,Board Games,Normal,2,19.99,39.98
+T100050,2025-09-23,ST001,South,Breakfast Foods,Strawberry Pop-Tarts,Normal,14,3.48,48.72
+T100051,2025-09-20,ST016,Northeast,Beverages,Sports Drink,Warning,28,2.29,64.12
+T100052,2025-08-30,ST013,Midwest,Breakfast Foods,Cereal,Normal,9,4.89,44.01
+T100053,2025-09-18,ST010,Southeast,Snacks,Granola Bars,Post-Storm,11,4.39,48.29
+T100054,2025-09-24,ST016,Northeast,Beverages,Bottled Water,Normal,26,5.49,142.74
+T100055,2025-08-23,ST019,Northeast,Family & Leisure,Board Games,Watch,11,19.99,219.89
+T100056,2025-08-23,ST002,South,Family & Leisure,Playing Cards,Normal,8,2.99,23.92
+T100057,2025-09-22,ST006,Southeast,Breakfast Foods,Instant Oatmeal,Normal,15,3.99,59.85
+T100058,2025-08-31,ST003,South,Family & Leisure,Board Games,Watch,17,19.99,339.83
+T100059,2025-09-04,ST013,Midwest,Breakfast Foods,Instant Oatmeal,Normal,9,3.99,35.91
+T100060,2025-09-27,ST002,South,Family & Leisure,Board Games,Normal,11,19.99,219.89
+T100061,2025-09-26,ST019,Northeast,Family & Leisure,Playing Cards,Post-Storm,12,2.99,35.88
+T100062,2025-09-02,ST011,Midwest,Beverages,Sports Drink,Normal,21,2.29,48.09
+T100063,2025-10-01,ST010,Southeast,Snacks,Cookies,Post-Storm,16,3.49,55.84
+T100064,2025-08-24,ST001,South,Snacks,Granola Bars,Post-Storm,22,4.39,96.58
+T100065,2025-08-26,ST003,South,Family & Leisure,Board Games,Normal,6,19.99,119.94
+T100066,2025-08-28,ST012,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Normal,16,3.48,55.68
+T100067,2025-08-30,ST015,Midwest,Family & Leisure,Puzzles,Normal,4,11.99,47.96
+T100068,2025-09-30,ST017,Northeast,Breakfast Foods,Instant Oatmeal,Warning,19,3.99,75.81
+T100069,2025-09-08,ST004,South,Beverages,Sports Drink,Normal,22,2.29,50.38
+T100070,2025-08-26,ST018,Northeast,Beverages,Sports Drink,Normal,17,2.29,38.93
+T100071,2025-09-02,ST011,Midwest,Beverages,Orange Juice,Watch,20,4.19,83.8
+T100072,2025-09-05,ST017,Northeast,Snacks,Cookies,Warning,22,3.49,76.78
+T100073,2025-08-23,ST003,South,Snacks,Cookies,Normal,16,3.49,55.84
+T100074,2025-09-10,ST005,South,Household,Batteries,Watch,21,8.99,188.79
+T100075,2025-09-24,ST014,Midwest,Family & Leisure,Board Games,Normal,7,19.99,139.93
+T100076,2025-10-03,ST005,South,Family & Leisure,Board Games,Warning,14,19.99,279.86
+T100077,2025-09-26,ST018,Northeast,Beverages,Sports Drink,Normal,15,2.29,34.35
+T100078,2025-09-08,ST012,Midwest,Breakfast Foods,Cereal,Normal,10,4.89,48.9
+T100079,2025-09-04,ST004,South,Household,Paper Towels,Warning,7,9.29,65.03
+T100080,2025-09-15,ST020,Northeast,Beverages,Bottled Water,Warning,40,5.49,219.6
+T100081,2025-08-31,ST014,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Watch,18,3.48,62.64
+T100082,2025-09-10,ST014,Midwest,Beverages,Sports Drink,Normal,17,2.29,38.93
+T100083,2025-10-03,ST004,South,Snacks,Chips,Warning,18,3.79,68.22
+T100084,2025-09-03,ST007,Southeast,Snacks,Cookies,Normal,14,3.49,48.86
+T100085,2025-09-03,ST008,Southeast,Breakfast Foods,Instant Oatmeal,Normal,15,3.99,59.85
+T100086,2025-09-10,ST009,Southeast,Breakfast Foods,Cereal,Normal,12,4.89,58.68
+T100087,2025-09-21,ST013,Midwest,Family & Leisure,Playing Cards,Post-Storm,5,2.99,14.95
+T100088,2025-08-27,ST009,Southeast,Beverages,Orange Juice,Post-Storm,26,4.19,108.94
+T100089,2025-09-05,ST002,South,Breakfast Foods,Instant Oatmeal,Normal,12,3.99,47.88
+T100090,2025-09-09,ST014,Midwest,Family & Leisure,Puzzles,Normal,7,11.99,83.93
+T100091,2025-09-25,ST007,Southeast,Household,Batteries,Watch,10,8.99,89.9
+T100092,2025-08-20,ST017,Northeast,Family & Leisure,Puzzles,Watch,5,11.99,59.95
+T100093,2025-10-01,ST007,Southeast,Household,Flashlights,Normal,14,12.49,174.86
+T100094,2025-10-01,ST011,Midwest,Family & Leisure,Playing Cards,Watch,11,2.99,32.89
+T100095,2025-08-27,ST010,Southeast,Family & Leisure,Playing Cards,Watch,14,2.99,41.86
+T100096,2025-09-09,ST013,Midwest,Household,Paper Towels,Normal,8,9.29,74.32
+T100097,2025-09-15,ST013,Midwest,Beverages,Orange Juice,Normal,14,4.19,58.66
+T100098,2025-09-14,ST018,Northeast,Breakfast Foods,Cereal,Normal,5,4.89,24.45
+T100099,2025-09-16,ST019,Northeast,Family & Leisure,Puzzles,Normal,5,11.99,59.95
+T100100,2025-09-17,ST015,Midwest,Beverages,Orange Juice,Normal,12,4.19,50.28
+T100101,2025-08-30,ST003,South,Household,Paper Towels,Watch,15,9.29,139.35
+T100102,2025-09-28,ST011,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Watch,12,3.48,41.76
+T100103,2025-09-03,ST007,Southeast,Beverages,Bottled Water,Normal,31,5.49,170.19
+T100104,2025-09-19,ST020,Northeast,Breakfast Foods,Cereal,Normal,9,4.89,44.01
+T100105,2025-09-29,ST019,Northeast,Beverages,Orange Juice,Watch,17,4.19,71.23
+T100106,2025-09-20,ST013,Midwest,Beverages,Bottled Water,Watch,35,5.49,192.15
+T100107,2025-08-20,ST004,South,Snacks,Chips,Normal,15,3.79,56.85
+T100108,2025-10-03,ST017,Northeast,Snacks,Chips,Normal,7,3.79,26.53
+T100109,2025-08-27,ST015,Midwest,Beverages,Sports Drink,Watch,10,2.29,22.9
+T100110,2025-09-24,ST020,Northeast,Household,Flashlights,Watch,6,12.49,74.94
+T100111,2025-09-21,ST014,Midwest,Family & Leisure,Playing Cards,Warning,11,2.99,32.89
+T100112,2025-09-19,ST015,Midwest,Household,Batteries,Warning,23,8.99,206.77
+T100113,2025-09-06,ST017,Northeast,Snacks,Granola Bars,Normal,14,4.39,61.46
+T100114,2025-09-17,ST003,South,Household,Batteries,Normal,17,8.99,152.83
+T100115,2025-09-09,ST018,Northeast,Breakfast Foods,Strawberry Pop-Tarts,Normal,16,3.48,55.68
+T100116,2025-09-13,ST005,South,Beverages,Bottled Water,Normal,40,5.49,219.6
+T100117,2025-09-10,ST018,Northeast,Snacks,Cookies,Normal,18,3.49,62.82
+T100118,2025-09-15,ST013,Midwest,Family & Leisure,Puzzles,Normal,6,11.99,71.94
+T100119,2025-09-25,ST013,Midwest,Snacks,Chips,Post-Storm,14,3.79,53.06
+T100120,2025-09-08,ST013,Midwest,Snacks,Granola Bars,Watch,13,4.39,57.07
+T100121,2025-09-23,ST020,Northeast,Beverages,Sports Drink,Normal,18,2.29,41.22
+T100122,2025-09-16,ST016,Northeast,Breakfast Foods,Cereal,Normal,18,4.89,88.02
+T100123,2025-10-02,ST013,Midwest,Beverages,Sports Drink,Warning,26,2.29,59.54
+T100124,2025-09-28,ST018,Northeast,Breakfast Foods,Cereal,Watch,4,4.89,19.56
+T100125,2025-10-01,ST001,South,Breakfast Foods,Instant Oatmeal,Normal,12,3.99,47.88
+T100126,2025-09-18,ST006,Southeast,Breakfast Foods,Cereal,Normal,14,4.89,68.46
+T100127,2025-09-02,ST015,Midwest,Household,Flashlights,Warning,18,12.49,224.82
+T100128,2025-09-13,ST009,Southeast,Snacks,Cookies,Warning,23,3.49,80.27
+T100129,2025-09-19,ST001,South,Family & Leisure,Board Games,Post-Storm,11,19.99,219.89
+T100130,2025-09-11,ST008,Southeast,Breakfast Foods,Instant Oatmeal,Normal,10,3.99,39.9
+T100131,2025-08-21,ST008,Southeast,Beverages,Bottled Water,Watch,34,5.49,186.66
+T100132,2025-09-04,ST005,South,Snacks,Granola Bars,Normal,10,4.39,43.9
+T100133,2025-09-02,ST015,Midwest,Household,Flashlights,Normal,10,12.49,124.9
+T100134,2025-09-27,ST004,South,Beverages,Sports Drink,Normal,24,2.29,54.96
+T100135,2025-08-21,ST010,Southeast,Family & Leisure,Puzzles,Warning,8,11.99,95.92
+T100136,2025-09-13,ST013,Midwest,Beverages,Bottled Water,Watch,31,5.49,170.19
+T100137,2025-09-29,ST008,Southeast,Breakfast Foods,Instant Oatmeal,Warning,18,3.99,71.82
+T100138,2025-10-02,ST020,Northeast,Breakfast Foods,Instant Oatmeal,Warning,14,3.99,55.86
+T100139,2025-09-11,ST018,Northeast,Snacks,Granola Bars,Normal,16,4.39,70.24
+T100140,2025-09-21,ST011,Midwest,Breakfast Foods,Cereal,Warning,19,4.89,92.91
+T100141,2025-08-26,ST014,Midwest,Household,Paper Towels,Warning,22,9.29,204.38
+T100142,2025-09-18,ST005,South,Snacks,Chips,Watch,26,3.79,98.54
+T100143,2025-09-30,ST009,Southeast,Family & Leisure,Puzzles,Warning,9,11.99,107.91
+T100144,2025-09-18,ST014,Midwest,Family & Leisure,Playing Cards,Normal,6,2.99,17.94
+T100145,2025-09-04,ST003,South,Household,Flashlights,Normal,7,12.49,87.43
+T100146,2025-09-18,ST019,Northeast,Family & Leisure,Puzzles,Normal,6,11.99,71.94
+T100147,2025-08-21,ST016,Northeast,Household,Batteries,Normal,7,8.99,62.93
+T100148,2025-09-11,ST009,Southeast,Household,Flashlights,Warning,6,12.49,74.94
+T100149,2025-10-03,ST009,Southeast,Family & Leisure,Board Games,Normal,5,19.99,99.95
+T100150,2025-09-01,ST003,South,Beverages,Orange Juice,Normal,19,4.19,79.61
+T100151,2025-09-24,ST008,Southeast,Snacks,Granola Bars,Watch,20,4.39,87.8
+T100152,2025-09-17,ST001,South,Breakfast Foods,Cereal,Normal,17,4.89,83.13
+T100153,2025-10-03,ST008,Southeast,Household,Paper Towels,Watch,7,9.29,65.03
+T100154,2025-09-19,ST018,Northeast,Family & Leisure,Playing Cards,Normal,5,2.99,14.95
+T100155,2025-09-24,ST011,Midwest,Household,Paper Towels,Normal,8,9.29,74.32
+T100156,2025-09-08,ST009,Southeast,Beverages,Bottled Water,Watch,32,5.49,175.68
+T100157,2025-09-09,ST004,South,Family & Leisure,Puzzles,Normal,6,11.99,71.94
+T100158,2025-09-02,ST016,Northeast,Household,Paper Towels,Watch,8,9.29,74.32
+T100159,2025-09-22,ST020,Northeast,Household,Batteries,Warning,14,8.99,125.86
+T100160,2025-09-07,ST008,Southeast,Household,Batteries,Normal,21,8.99,188.79
+T100161,2025-09-23,ST005,South,Household,Batteries,Post-Storm,15,8.99,134.85
+T100162,2025-09-24,ST010,Southeast,Beverages,Orange Juice,Warning,29,4.19,121.51
+T100163,2025-09-20,ST004,South,Breakfast Foods,Instant Oatmeal,Normal,15,3.99,59.85
+T100164,2025-09-19,ST015,Midwest,Household,Batteries,Post-Storm,13,8.99,116.87
+T100165,2025-09-05,ST016,Northeast,Breakfast Foods,Strawberry Pop-Tarts,Normal,9,3.48,31.32
+T100166,2025-08-24,ST019,Northeast,Breakfast Foods,Strawberry Pop-Tarts,Normal,14,3.48,48.72
+T100167,2025-09-25,ST010,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Normal,19,3.48,66.12
+T100168,2025-09-15,ST020,Northeast,Family & Leisure,Puzzles,Normal,5,11.99,59.95
+T100169,2025-09-22,ST013,Midwest,Snacks,Cookies,Normal,9,3.49,31.41
+T100170,2025-09-26,ST014,Midwest,Household,Paper Towels,Watch,9,9.29,83.61
+T100171,2025-09-28,ST004,South,Beverages,Orange Juice,Normal,29,4.19,121.51
+T100172,2025-10-01,ST003,South,Beverages,Bottled Water,Normal,29,5.49,159.21
+T100173,2025-08-24,ST006,Southeast,Breakfast Foods,Cereal,Normal,11,4.89,53.79
+T100174,2025-09-27,ST016,Northeast,Household,Batteries,Normal,13,8.99,116.87
+T100175,2025-09-07,ST015,Midwest,Breakfast Foods,Instant Oatmeal,Normal,10,3.99,39.9
+T100176,2025-09-05,ST019,Northeast,Beverages,Sports Drink,Normal,12,2.29,27.48
+T100177,2025-09-03,ST005,South,Household,Batteries,Normal,13,8.99,116.87
+T100178,2025-08-30,ST010,Southeast,Family & Leisure,Puzzles,Warning,9,11.99,107.91
+T100179,2025-09-07,ST015,Midwest,Breakfast Foods,Cereal,Watch,15,4.89,73.35
+T100180,2025-10-03,ST013,Midwest,Household,Paper Towels,Normal,6,9.29,55.74
+T100181,2025-09-17,ST003,South,Family & Leisure,Board Games,Warning,11,19.99,219.89
+T100182,2025-09-09,ST020,Northeast,Household,Batteries,Normal,9,8.99,80.91
+T100183,2025-10-02,ST019,Northeast,Family & Leisure,Board Games,Post-Storm,11,19.99,219.89
+T100184,2025-10-02,ST009,Southeast,Family & Leisure,Board Games,Warning,14,19.99,279.86
+T100185,2025-08-31,ST016,Northeast,Family & Leisure,Puzzles,Normal,4,11.99,47.96
+T100186,2025-09-06,ST006,Southeast,Family & Leisure,Playing Cards,Watch,14,2.99,41.86
+T100187,2025-09-20,ST003,South,Snacks,Cookies,Normal,24,3.49,83.76
+T100188,2025-09-09,ST004,South,Beverages,Sports Drink,Normal,21,2.29,48.09
+T100189,2025-09-20,ST010,Southeast,Snacks,Granola Bars,Normal,18,4.39,79.02
+T100190,2025-08-25,ST011,Midwest,Household,Flashlights,Normal,11,12.49,137.39
+T100191,2025-09-14,ST017,Northeast,Breakfast Foods,Instant Oatmeal,Warning,21,3.99,83.79
+T100192,2025-09-18,ST014,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Normal,16,3.48,55.68
+T100193,2025-09-28,ST016,Northeast,Snacks,Chips,Normal,18,3.79,68.22
+T100194,2025-09-24,ST005,South,Household,Flashlights,Warning,21,12.49,262.29
+T100195,2025-09-20,ST004,South,Breakfast Foods,Instant Oatmeal,Watch,23,3.99,91.77
+T100196,2025-09-04,ST006,Southeast,Household,Paper Towels,Normal,10,9.29,92.9
+T100197,2025-09-15,ST003,South,Beverages,Bottled Water,Normal,22,5.49,120.78
+T100198,2025-08-27,ST005,South,Snacks,Granola Bars,Normal,19,4.39,83.41
+T100199,2025-09-06,ST014,Midwest,Snacks,Cookies,Normal,16,3.49,55.84
+T100200,2025-09-24,ST005,South,Snacks,Chips,Post-Storm,15,3.79,56.85
+T100201,2025-09-21,ST005,South,Breakfast Foods,Cereal,Warning,19,4.89,92.91
+T100202,2025-09-15,ST011,Midwest,Family & Leisure,Playing Cards,Warning,9,2.99,26.91
+T100203,2025-09-07,ST010,Southeast,Family & Leisure,Puzzles,Post-Storm,15,11.99,179.85
+T100204,2025-09-20,ST005,South,Snacks,Granola Bars,Normal,12,4.39,52.68
+T100205,2025-09-10,ST018,Northeast,Family & Leisure,Playing Cards,Normal,6,2.99,17.94
+T100206,2025-09-09,ST007,Southeast,Beverages,Orange Juice,Normal,18,4.19,75.42
+T100207,2025-09-15,ST002,South,Household,Paper Towels,Normal,17,9.29,157.93
+T100208,2025-09-13,ST013,Midwest,Beverages,Sports Drink,Post-Storm,14,2.29,32.06
+T100209,2025-08-28,ST017,Northeast,Family & Leisure,Playing Cards,Warning,8,2.99,23.92
+T100210,2025-09-17,ST004,South,Family & Leisure,Playing Cards,Normal,6,2.99,17.94
+T100211,2025-08-29,ST014,Midwest,Beverages,Bottled Water,Normal,23,5.49,126.27
+T100212,2025-09-05,ST011,Midwest,Family & Leisure,Puzzles,Normal,7,11.99,83.93
+T100213,2025-08-25,ST011,Midwest,Family & Leisure,Playing Cards,Post-Storm,3,2.99,8.97
+T100214,2025-09-29,ST016,Northeast,Family & Leisure,Board Games,Watch,7,19.99,139.93
+T100215,2025-09-04,ST010,Southeast,Beverages,Orange Juice,Normal,29,4.19,121.51
+T100216,2025-08-26,ST004,South,Snacks,Chips,Watch,15,3.79,56.85
+T100217,2025-08-21,ST002,South,Household,Batteries,Normal,13,8.99,116.87
+T100218,2025-09-12,ST014,Midwest,Beverages,Bottled Water,Normal,18,5.49,98.82
+T100219,2025-09-25,ST006,Southeast,Beverages,Bottled Water,Normal,30,5.49,164.7
+T100220,2025-09-13,ST020,Northeast,Beverages,Sports Drink,Warning,21,2.29,48.09
+T100221,2025-08-29,ST008,Southeast,Snacks,Granola Bars,Normal,17,4.39,74.63
+T100222,2025-09-05,ST001,South,Snacks,Cookies,Watch,12,3.49,41.88
+T100223,2025-08-30,ST003,South,Snacks,Cookies,Post-Storm,11,3.49,38.39
+T100224,2025-09-08,ST014,Midwest,Household,Flashlights,Warning,11,12.49,137.39
+T100225,2025-09-01,ST013,Midwest,Snacks,Chips,Normal,10,3.79,37.9
+T100226,2025-09-25,ST012,Midwest,Family & Leisure,Playing Cards,Post-Storm,7,2.99,20.93
+T100227,2025-09-07,ST001,South,Snacks,Cookies,Normal,10,3.49,34.9
+T100228,2025-10-02,ST002,South,Family & Leisure,Puzzles,Normal,6,11.99,71.94
+T100229,2025-09-07,ST008,Southeast,Family & Leisure,Playing Cards,Normal,9,2.99,26.91
+T100230,2025-09-01,ST020,Northeast,Household,Paper Towels,Watch,17,9.29,157.93
+T100231,2025-10-01,ST005,South,Breakfast Foods,Instant Oatmeal,Watch,11,3.99,43.89
+T100232,2025-09-08,ST015,Midwest,Breakfast Foods,Instant Oatmeal,Normal,11,3.99,43.89
+T100233,2025-08-28,ST003,South,Household,Flashlights,Watch,17,12.49,212.33
+T100234,2025-08-31,ST007,Southeast,Beverages,Orange Juice,Warning,31,4.19,129.89
+T100235,2025-09-12,ST017,Northeast,Family & Leisure,Playing Cards,Warning,7,2.99,20.93
+T100236,2025-09-05,ST016,Northeast,Household,Paper Towels,Warning,19,9.29,176.51
+T100237,2025-08-27,ST015,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Watch,19,3.48,66.12
+T100238,2025-09-03,ST013,Midwest,Family & Leisure,Playing Cards,Normal,4,2.99,11.96
+T100239,2025-09-14,ST001,South,Household,Paper Towels,Normal,17,9.29,157.93
+T100240,2025-09-12,ST009,Southeast,Family & Leisure,Playing Cards,Warning,12,2.99,35.88
+T100241,2025-09-12,ST004,South,Beverages,Sports Drink,Normal,16,2.29,36.64
+T100242,2025-09-24,ST011,Midwest,Family & Leisure,Board Games,Watch,6,19.99,119.94
+T100243,2025-09-29,ST015,Midwest,Household,Paper Towels,Normal,12,9.29,111.48
+T100244,2025-08-28,ST002,South,Breakfast Foods,Cereal,Post-Storm,13,4.89,63.57
+T100245,2025-08-27,ST004,South,Beverages,Orange Juice,Normal,21,4.19,87.99
+T100246,2025-09-18,ST012,Midwest,Family & Leisure,Playing Cards,Watch,7,2.99,20.93
+T100247,2025-08-29,ST014,Midwest,Breakfast Foods,Cereal,Watch,10,4.89,48.9
+T100248,2025-09-06,ST002,South,Household,Batteries,Normal,19,8.99,170.81
+T100249,2025-09-04,ST012,Midwest,Breakfast Foods,Instant Oatmeal,Normal,9,3.99,35.91
+T100250,2025-09-30,ST012,Midwest,Breakfast Foods,Cereal,Normal,10,4.89,48.9
+T100251,2025-08-27,ST015,Midwest,Breakfast Foods,Instant Oatmeal,Normal,17,3.99,67.83
+T100252,2025-09-29,ST020,Northeast,Breakfast Foods,Strawberry Pop-Tarts,Warning,31,3.48,107.88
+T100253,2025-09-04,ST005,South,Family & Leisure,Board Games,Normal,13,19.99,259.87
+T100254,2025-09-24,ST007,Southeast,Family & Leisure,Board Games,Warning,9,19.99,179.91
+T100255,2025-09-03,ST011,Midwest,Beverages,Orange Juice,Normal,24,4.19,100.56
+T100256,2025-08-29,ST005,South,Family & Leisure,Playing Cards,Warning,14,2.99,41.86
+T100257,2025-08-27,ST001,South,Beverages,Bottled Water,Normal,38,5.49,208.62
+T100258,2025-09-04,ST019,Northeast,Household,Batteries,Normal,18,8.99,161.82
+T100259,2025-08-23,ST005,South,Snacks,Granola Bars,Normal,15,4.39,65.85
+T100260,2025-08-24,ST016,Northeast,Snacks,Cookies,Normal,10,3.49,34.9
+T100261,2025-08-26,ST015,Midwest,Family & Leisure,Board Games,Post-Storm,4,19.99,79.96
+T100262,2025-08-22,ST017,Northeast,Household,Flashlights,Watch,8,12.49,99.92
+T100263,2025-08-21,ST002,South,Snacks,Cookies,Normal,20,3.49,69.8
+T100264,2025-08-26,ST016,Northeast,Snacks,Chips,Warning,20,3.79,75.8
+T100265,2025-09-09,ST020,Northeast,Beverages,Bottled Water,Normal,23,5.49,126.27
+T100266,2025-09-28,ST019,Northeast,Family & Leisure,Puzzles,Normal,14,11.99,167.86
+T100267,2025-09-27,ST017,Northeast,Household,Flashlights,Normal,5,12.49,62.45
+T100268,2025-09-16,ST004,South,Breakfast Foods,Instant Oatmeal,Watch,15,3.99,59.85
+T100269,2025-09-24,ST007,Southeast,Snacks,Cookies,Warning,25,3.49,87.25
+T100270,2025-09-15,ST011,Midwest,Snacks,Cookies,Normal,21,3.49,73.29
+T100271,2025-08-26,ST011,Midwest,Snacks,Cookies,Watch,9,3.49,31.41
+T100272,2025-09-12,ST005,South,Snacks,Chips,Normal,16,3.79,60.64
+T100273,2025-08-25,ST003,South,Snacks,Chips,Watch,20,3.79,75.8
+T100274,2025-09-12,ST005,South,Family & Leisure,Board Games,Watch,11,19.99,219.89
+T100275,2025-09-24,ST018,Northeast,Household,Paper Towels,Normal,5,9.29,46.45
+T100276,2025-09-11,ST014,Midwest,Breakfast Foods,Cereal,Watch,9,4.89,44.01
+T100277,2025-09-11,ST004,South,Family & Leisure,Puzzles,Normal,9,11.99,107.91
+T100278,2025-10-01,ST016,Northeast,Beverages,Bottled Water,Normal,29,5.49,159.21
+T100279,2025-09-24,ST012,Midwest,Breakfast Foods,Cereal,Normal,15,4.89,73.35
+T100280,2025-09-16,ST018,Northeast,Family & Leisure,Puzzles,Watch,6,11.99,71.94
+T100281,2025-09-24,ST001,South,Family & Leisure,Puzzles,Warning,6,11.99,71.94
+T100282,2025-09-06,ST001,South,Beverages,Sports Drink,Watch,28,2.29,64.12
+T100283,2025-09-08,ST011,Midwest,Household,Batteries,Normal,16,8.99,143.84
+T100284,2025-08-29,ST019,Northeast,Snacks,Chips,Normal,12,3.79,45.48
+T100285,2025-09-29,ST001,South,Breakfast Foods,Instant Oatmeal,Normal,18,3.99,71.82
+T100286,2025-09-13,ST014,Midwest,Snacks,Cookies,Normal,16,3.49,55.84
+T100287,2025-09-08,ST011,Midwest,Family & Leisure,Puzzles,Normal,15,11.99,179.85
+T100288,2025-08-23,ST005,South,Beverages,Orange Juice,Normal,28,4.19,117.32
+T100289,2025-08-25,ST009,Southeast,Snacks,Granola Bars,Normal,13,4.39,57.07
+T100290,2025-09-27,ST015,Midwest,Snacks,Cookies,Normal,10,3.49,34.9
+T100291,2025-09-21,ST004,South,Household,Flashlights,Normal,16,12.49,199.84
+T100292,2025-10-02,ST019,Northeast,Snacks,Granola Bars,Watch,16,4.39,70.24
+T100293,2025-08-22,ST008,Southeast,Snacks,Granola Bars,Normal,17,4.39,74.63
+T100294,2025-09-02,ST010,Southeast,Beverages,Bottled Water,Warning,46,5.49,252.54
+T100295,2025-09-07,ST011,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Normal,21,3.48,73.08
+T100296,2025-09-16,ST006,Southeast,Beverages,Sports Drink,Normal,31,2.29,70.99
+T100297,2025-09-03,ST017,Northeast,Family & Leisure,Puzzles,Warning,8,11.99,95.92
+T100298,2025-08-24,ST013,Midwest,Breakfast Foods,Cereal,Normal,13,4.89,63.57
+T100299,2025-08-24,ST011,Midwest,Family & Leisure,Playing Cards,Normal,9,2.99,26.91
+T100300,2025-09-29,ST014,Midwest,Household,Batteries,Normal,12,8.99,107.88
+T100301,2025-09-09,ST006,Southeast,Family & Leisure,Playing Cards,Warning,13,2.99,38.87
+T100302,2025-09-12,ST003,South,Snacks,Chips,Normal,15,3.79,56.85
+T100303,2025-09-26,ST013,Midwest,Family & Leisure,Board Games,Normal,7,19.99,139.93
+T100304,2025-09-08,ST011,Midwest,Beverages,Sports Drink,Warning,36,2.29,82.44
+T100305,2025-08-24,ST017,Northeast,Breakfast Foods,Instant Oatmeal,Normal,11,3.99,43.89
+T100306,2025-09-11,ST012,Midwest,Beverages,Bottled Water,Normal,22,5.49,120.78
+T100307,2025-09-05,ST007,Southeast,Beverages,Orange Juice,Normal,26,4.19,108.94
+T100308,2025-09-30,ST003,South,Beverages,Orange Juice,Normal,16,4.19,67.04
+T100309,2025-09-25,ST019,Northeast,Snacks,Granola Bars,Post-Storm,13,4.39,57.07
+T100310,2025-09-25,ST020,Northeast,Household,Paper Towels,Normal,11,9.29,102.19
+T100311,2025-09-17,ST003,South,Snacks,Cookies,Watch,26,3.49,90.74
+T100312,2025-09-06,ST019,Northeast,Breakfast Foods,Cereal,Normal,15,4.89,73.35
+T100313,2025-09-08,ST015,Midwest,Snacks,Chips,Normal,8,3.79,30.32
+T100314,2025-09-07,ST003,South,Breakfast Foods,Instant Oatmeal,Watch,19,3.99,75.81
+T100315,2025-09-13,ST015,Midwest,Family & Leisure,Puzzles,Post-Storm,4,11.99,47.96
+T100316,2025-08-22,ST015,Midwest,Family & Leisure,Puzzles,Normal,4,11.99,47.96
+T100317,2025-09-27,ST016,Northeast,Family & Leisure,Board Games,Post-Storm,8,19.99,159.92
+T100318,2025-09-17,ST004,South,Household,Paper Towels,Normal,11,9.29,102.19
+T100319,2025-09-30,ST006,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Watch,15,3.48,52.2
+T100320,2025-09-17,ST017,Northeast,Family & Leisure,Puzzles,Normal,4,11.99,47.96
+T100321,2025-09-12,ST010,Southeast,Snacks,Cookies,Warning,23,3.49,80.27
+T100322,2025-10-02,ST020,Northeast,Breakfast Foods,Instant Oatmeal,Watch,11,3.99,43.89
+T100323,2025-08-24,ST011,Midwest,Breakfast Foods,Instant Oatmeal,Watch,8,3.99,31.92
+T100324,2025-09-07,ST009,Southeast,Family & Leisure,Board Games,Normal,8,19.99,159.92
+T100325,2025-09-26,ST005,South,Household,Flashlights,Post-Storm,12,12.49,149.88
+T100326,2025-10-03,ST013,Midwest,Beverages,Orange Juice,Watch,28,4.19,117.32
+T100327,2025-08-25,ST010,Southeast,Family & Leisure,Playing Cards,Watch,15,2.99,44.85
+T100328,2025-09-10,ST005,South,Family & Leisure,Board Games,Watch,4,19.99,79.96
+T100329,2025-09-16,ST017,Northeast,Household,Batteries,Normal,9,8.99,80.91
+T100330,2025-08-31,ST007,Southeast,Household,Flashlights,Normal,15,12.49,187.35
+T100331,2025-08-28,ST005,South,Breakfast Foods,Cereal,Warning,20,4.89,97.8
+T100332,2025-08-26,ST017,Northeast,Family & Leisure,Puzzles,Warning,8,11.99,95.92
+T100333,2025-08-22,ST011,Midwest,Family & Leisure,Board Games,Watch,9,19.99,179.91
+T100334,2025-08-29,ST006,Southeast,Beverages,Orange Juice,Warning,36,4.19,150.84
+T100335,2025-08-30,ST015,Midwest,Breakfast Foods,Cereal,Normal,12,4.89,58.68
+T100336,2025-09-04,ST015,Midwest,Family & Leisure,Playing Cards,Watch,11,2.99,32.89
+T100337,2025-09-17,ST008,Southeast,Family & Leisure,Board Games,Normal,11,19.99,219.89
+T100338,2025-09-19,ST007,Southeast,Household,Paper Towels,Post-Storm,11,9.29,102.19
+T100339,2025-09-17,ST015,Midwest,Household,Flashlights,Normal,7,12.49,87.43
+T100340,2025-09-15,ST006,Southeast,Beverages,Orange Juice,Normal,21,4.19,87.99
+T100341,2025-09-05,ST002,South,Snacks,Cookies,Normal,11,3.49,38.39
+T100342,2025-08-26,ST017,Northeast,Breakfast Foods,Cereal,Normal,12,4.89,58.68
+T100343,2025-08-30,ST009,Southeast,Snacks,Granola Bars,Normal,17,4.39,74.63
+T100344,2025-09-16,ST003,South,Beverages,Sports Drink,Warning,25,2.29,57.25
+T100345,2025-08-21,ST014,Midwest,Breakfast Foods,Cereal,Normal,9,4.89,44.01
+T100346,2025-09-04,ST013,Midwest,Breakfast Foods,Cereal,Normal,3,4.89,14.67
+T100347,2025-09-09,ST004,South,Household,Batteries,Normal,14,8.99,125.86
+T100348,2025-09-07,ST016,Northeast,Beverages,Orange Juice,Normal,15,4.19,62.85
+T100349,2025-09-28,ST001,South,Breakfast Foods,Strawberry Pop-Tarts,Normal,9,3.48,31.32
+T100350,2025-08-29,ST018,Northeast,Family & Leisure,Puzzles,Normal,6,11.99,71.94
+T100351,2025-09-07,ST008,Southeast,Household,Batteries,Normal,15,8.99,134.85
+T100352,2025-09-15,ST020,Northeast,Snacks,Chips,Normal,14,3.79,53.06
+T100353,2025-09-20,ST020,Northeast,Family & Leisure,Board Games,Watch,6,19.99,119.94
+T100354,2025-09-25,ST008,Southeast,Beverages,Sports Drink,Normal,22,2.29,50.38
+T100355,2025-09-28,ST012,Midwest,Beverages,Orange Juice,Normal,24,4.19,100.56
+T100356,2025-10-01,ST003,South,Family & Leisure,Playing Cards,Normal,12,2.99,35.88
+T100357,2025-09-22,ST018,Northeast,Family & Leisure,Puzzles,Normal,6,11.99,71.94
+T100358,2025-09-13,ST016,Northeast,Breakfast Foods,Instant Oatmeal,Normal,12,3.99,47.88
+T100359,2025-09-12,ST009,Southeast,Breakfast Foods,Cereal,Warning,25,4.89,122.25
+T100360,2025-09-11,ST008,Southeast,Breakfast Foods,Instant Oatmeal,Watch,13,3.99,51.87
+T100361,2025-09-10,ST005,South,Breakfast Foods,Cereal,Normal,17,4.89,83.13
+T100362,2025-09-30,ST006,Southeast,Snacks,Granola Bars,Normal,20,4.39,87.8
+T100363,2025-08-31,ST005,South,Breakfast Foods,Instant Oatmeal,Warning,23,3.99,91.77
+T100364,2025-09-18,ST002,South,Household,Batteries,Normal,12,8.99,107.88
+T100365,2025-09-01,ST002,South,Household,Flashlights,Normal,10,12.49,124.9
+T100366,2025-09-23,ST016,Northeast,Household,Batteries,Watch,12,8.99,107.88
+T100367,2025-09-01,ST010,Southeast,Household,Batteries,Warning,16,8.99,143.84
+T100368,2025-09-10,ST009,Southeast,Breakfast Foods,Cereal,Normal,10,4.89,48.9
+T100369,2025-09-14,ST015,Midwest,Snacks,Cookies,Post-Storm,14,3.49,48.86
+T100370,2025-09-20,ST016,Northeast,Household,Paper Towels,Normal,9,9.29,83.61
+T100371,2025-08-25,ST014,Midwest,Breakfast Foods,Cereal,Watch,12,4.89,58.68
+T100372,2025-08-31,ST018,Northeast,Household,Flashlights,Normal,9,12.49,112.41
+T100373,2025-09-09,ST010,Southeast,Household,Flashlights,Watch,10,12.49,124.9
+T100374,2025-09-16,ST006,Southeast,Snacks,Cookies,Normal,14,3.49,48.86
+T100375,2025-09-11,ST020,Northeast,Snacks,Cookies,Watch,14,3.49,48.86
+T100376,2025-08-23,ST003,South,Snacks,Cookies,Normal,14,3.49,48.86
+T100377,2025-10-02,ST006,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Warning,31,3.48,107.88
+T100378,2025-10-02,ST015,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Normal,13,3.48,45.24
+T100379,2025-09-30,ST012,Midwest,Household,Flashlights,Post-Storm,7,12.49,87.43
+T100380,2025-08-22,ST020,Northeast,Beverages,Orange Juice,Normal,19,4.19,79.61
+T100381,2025-09-12,ST012,Midwest,Snacks,Chips,Normal,14,3.79,53.06
+T100382,2025-09-22,ST012,Midwest,Snacks,Cookies,Watch,25,3.49,87.25
+T100383,2025-09-04,ST004,South,Breakfast Foods,Instant Oatmeal,Normal,18,3.99,71.82
+T100384,2025-09-22,ST013,Midwest,Family & Leisure,Board Games,Normal,8,19.99,159.92
+T100385,2025-09-05,ST015,Midwest,Beverages,Orange Juice,Normal,16,4.19,67.04
+T100386,2025-09-20,ST007,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Warning,37,3.48,128.76
+T100387,2025-09-17,ST006,Southeast,Snacks,Chips,Warning,18,3.79,68.22
+T100388,2025-09-09,ST012,Midwest,Breakfast Foods,Instant Oatmeal,Normal,9,3.99,35.91
+T100389,2025-09-08,ST006,Southeast,Beverages,Sports Drink,Normal,19,2.29,43.51
+T100390,2025-08-27,ST007,Southeast,Beverages,Bottled Water,Warning,30,5.49,164.7
+T100391,2025-08-21,ST012,Midwest,Family & Leisure,Puzzles,Normal,6,11.99,71.94
+T100392,2025-09-24,ST005,South,Family & Leisure,Board Games,Normal,9,19.99,179.91
+T100393,2025-09-14,ST016,Northeast,Family & Leisure,Playing Cards,Warning,11,2.99,32.89
+T100394,2025-09-25,ST003,South,Beverages,Sports Drink,Watch,15,2.29,34.35
+T100395,2025-09-17,ST015,Midwest,Family & Leisure,Playing Cards,Normal,5,2.99,14.95
+T100396,2025-09-24,ST019,Northeast,Beverages,Bottled Water,Normal,23,5.49,126.27
+T100397,2025-08-23,ST004,South,Family & Leisure,Board Games,Normal,15,19.99,299.85
+T100398,2025-08-30,ST011,Midwest,Beverages,Sports Drink,Post-Storm,12,2.29,27.48
+T100399,2025-09-22,ST010,Southeast,Breakfast Foods,Cereal,Normal,10,4.89,48.9
+T100400,2025-09-24,ST009,Southeast,Beverages,Orange Juice,Normal,13,4.19,54.47
+T100401,2025-09-23,ST003,South,Family & Leisure,Puzzles,Normal,13,11.99,155.87
+T100402,2025-09-26,ST005,South,Beverages,Orange Juice,Watch,16,4.19,67.04
+T100403,2025-09-27,ST011,Midwest,Family & Leisure,Board Games,Warning,8,19.99,159.92
+T100404,2025-08-21,ST003,South,Breakfast Foods,Instant Oatmeal,Warning,24,3.99,95.76
+T100405,2025-09-05,ST007,Southeast,Family & Leisure,Playing Cards,Watch,4,2.99,11.96
+T100406,2025-08-21,ST016,Northeast,Family & Leisure,Playing Cards,Watch,11,2.99,32.89
+T100407,2025-09-08,ST016,Northeast,Beverages,Orange Juice,Normal,24,4.19,100.56
+T100408,2025-09-18,ST003,South,Breakfast Foods,Strawberry Pop-Tarts,Normal,23,3.48,80.04
+T100409,2025-09-19,ST015,Midwest,Beverages,Sports Drink,Watch,17,2.29,38.93
+T100410,2025-09-09,ST011,Midwest,Household,Flashlights,Normal,13,12.49,162.37
+T100411,2025-09-12,ST017,Northeast,Family & Leisure,Board Games,Normal,5,19.99,99.95
+T100412,2025-09-18,ST004,South,Household,Flashlights,Normal,11,12.49,137.39
+T100413,2025-08-26,ST002,South,Household,Flashlights,Warning,17,12.49,212.33
+T100414,2025-09-15,ST008,Southeast,Beverages,Sports Drink,Post-Storm,11,2.29,25.19
+T100415,2025-09-09,ST007,Southeast,Beverages,Sports Drink,Post-Storm,14,2.29,32.06
+T100416,2025-09-18,ST016,Northeast,Household,Flashlights,Normal,7,12.49,87.43
+T100417,2025-09-14,ST017,Northeast,Snacks,Chips,Normal,11,3.79,41.69
+T100418,2025-09-11,ST002,South,Breakfast Foods,Cereal,Normal,9,4.89,44.01
+T100419,2025-09-30,ST016,Northeast,Household,Paper Towels,Normal,9,9.29,83.61
+T100420,2025-08-26,ST014,Midwest,Beverages,Sports Drink,Watch,19,2.29,43.51
+T100421,2025-09-14,ST012,Midwest,Breakfast Foods,Cereal,Normal,17,4.89,83.13
+T100422,2025-09-24,ST007,Southeast,Household,Paper Towels,Normal,8,9.29,74.32
+T100423,2025-09-13,ST017,Northeast,Snacks,Granola Bars,Normal,13,4.39,57.07
+T100424,2025-09-28,ST020,Northeast,Breakfast Foods,Strawberry Pop-Tarts,Post-Storm,14,3.48,48.72
+T100425,2025-09-14,ST012,Midwest,Household,Paper Towels,Post-Storm,5,9.29,46.45
+T100426,2025-08-29,ST007,Southeast,Family & Leisure,Puzzles,Normal,9,11.99,107.91
+T100427,2025-08-22,ST002,South,Breakfast Foods,Strawberry Pop-Tarts,Watch,21,3.48,73.08
+T100428,2025-09-19,ST017,Northeast,Snacks,Chips,Watch,12,3.79,45.48
+T100429,2025-09-21,ST005,South,Household,Paper Towels,Normal,12,9.29,111.48
+T100430,2025-09-14,ST020,Northeast,Household,Paper Towels,Normal,12,9.29,111.48
+T100431,2025-09-21,ST018,Northeast,Snacks,Granola Bars,Normal,19,4.39,83.41
+T100432,2025-09-19,ST001,South,Household,Flashlights,Watch,15,12.49,187.35
+T100433,2025-09-15,ST019,Northeast,Household,Paper Towels,Warning,18,9.29,167.22
+T100434,2025-09-29,ST001,South,Family & Leisure,Playing Cards,Normal,7,2.99,20.93
+T100435,2025-09-30,ST019,Northeast,Family & Leisure,Board Games,Watch,4,19.99,79.96
+T100436,2025-09-26,ST016,Northeast,Beverages,Orange Juice,Watch,17,4.19,71.23
+T100437,2025-09-28,ST013,Midwest,Beverages,Orange Juice,Normal,16,4.19,67.04
+T100438,2025-09-25,ST004,South,Beverages,Bottled Water,Normal,32,5.49,175.68
+T100439,2025-09-15,ST005,South,Snacks,Granola Bars,Normal,12,4.39,52.68
+T100440,2025-09-21,ST020,Northeast,Snacks,Granola Bars,Watch,17,4.39,74.63
+T100441,2025-08-28,ST017,Northeast,Beverages,Orange Juice,Normal,13,4.19,54.47
+T100442,2025-10-01,ST016,Northeast,Family & Leisure,Playing Cards,Normal,6,2.99,17.94
+T100443,2025-08-31,ST015,Midwest,Family & Leisure,Playing Cards,Normal,5,2.99,14.95
+T100444,2025-10-02,ST009,Southeast,Family & Leisure,Playing Cards,Normal,12,2.99,35.88
+T100445,2025-09-04,ST009,Southeast,Family & Leisure,Playing Cards,Normal,7,2.99,20.93
+T100446,2025-09-08,ST010,Southeast,Beverages,Orange Juice,Watch,30,4.19,125.7
+T100447,2025-09-09,ST016,Northeast,Household,Paper Towels,Post-Storm,16,9.29,148.64
+T100448,2025-09-06,ST010,Southeast,Breakfast Foods,Instant Oatmeal,Watch,12,3.99,47.88
+T100449,2025-09-13,ST013,Midwest,Household,Batteries,Normal,15,8.99,134.85
+T100450,2025-09-07,ST003,South,Household,Flashlights,Watch,11,12.49,137.39
+T100451,2025-09-19,ST007,Southeast,Beverages,Orange Juice,Normal,25,4.19,104.75
+T100452,2025-09-24,ST009,Southeast,Beverages,Bottled Water,Watch,33,5.49,181.17
+T100453,2025-09-26,ST008,Southeast,Beverages,Bottled Water,Watch,32,5.49,175.68
+T100454,2025-09-22,ST008,Southeast,Beverages,Bottled Water,Normal,29,5.49,159.21
+T100455,2025-09-10,ST016,Northeast,Breakfast Foods,Instant Oatmeal,Warning,21,3.99,83.79
+T100456,2025-08-20,ST018,Northeast,Beverages,Sports Drink,Watch,22,2.29,50.38
+T100457,2025-09-19,ST016,Northeast,Beverages,Sports Drink,Normal,16,2.29,36.64
+T100458,2025-09-30,ST002,South,Breakfast Foods,Instant Oatmeal,Normal,11,3.99,43.89
+T100459,2025-09-23,ST002,South,Beverages,Sports Drink,Warning,28,2.29,64.12
+T100460,2025-08-31,ST002,South,Snacks,Cookies,Normal,13,3.49,45.37
+T100461,2025-09-07,ST002,South,Breakfast Foods,Cereal,Normal,17,4.89,83.13
+T100462,2025-08-26,ST011,Midwest,Household,Flashlights,Post-Storm,4,12.49,49.96
+T100463,2025-09-23,ST017,Northeast,Snacks,Chips,Warning,22,3.79,83.38
+T100464,2025-09-18,ST009,Southeast,Beverages,Bottled Water,Normal,32,5.49,175.68
+T100465,2025-09-18,ST009,Southeast,Beverages,Bottled Water,Watch,46,5.49,252.54
+T100466,2025-09-07,ST019,Northeast,Beverages,Bottled Water,Watch,25,5.49,137.25
+T100467,2025-09-29,ST013,Midwest,Snacks,Granola Bars,Normal,11,4.39,48.29
+T100468,2025-09-14,ST004,South,Beverages,Bottled Water,Normal,30,5.49,164.7
+T100469,2025-09-04,ST001,South,Household,Flashlights,Normal,16,12.49,199.84
+T100470,2025-09-06,ST011,Midwest,Household,Paper Towels,Watch,11,9.29,102.19
+T100471,2025-08-20,ST009,Southeast,Household,Paper Towels,Normal,13,9.29,120.77
+T100472,2025-10-01,ST004,South,Snacks,Cookies,Normal,17,3.49,59.33
+T100473,2025-10-02,ST017,Northeast,Household,Paper Towels,Normal,9,9.29,83.61
+T100474,2025-09-07,ST012,Midwest,Family & Leisure,Board Games,Normal,6,19.99,119.94
+T100475,2025-08-28,ST016,Northeast,Beverages,Sports Drink,Watch,16,2.29,36.64
+T100476,2025-09-27,ST012,Midwest,Snacks,Granola Bars,Normal,14,4.39,61.46
+T100477,2025-09-19,ST018,Northeast,Beverages,Bottled Water,Watch,20,5.49,109.8
+T100478,2025-09-27,ST003,South,Family & Leisure,Playing Cards,Normal,12,2.99,35.88
+T100479,2025-09-12,ST003,South,Family & Leisure,Board Games,Normal,8,19.99,159.92
+T100480,2025-09-24,ST017,Northeast,Beverages,Orange Juice,Normal,13,4.19,54.47
+T100481,2025-08-30,ST011,Midwest,Family & Leisure,Playing Cards,Normal,10,2.99,29.9
+T100482,2025-09-02,ST019,Northeast,Snacks,Chips,Warning,13,3.79,49.27
+T100483,2025-09-17,ST002,South,Snacks,Chips,Normal,19,3.79,72.01
+T100484,2025-09-18,ST019,Northeast,Breakfast Foods,Instant Oatmeal,Normal,10,3.99,39.9
+T100485,2025-09-08,ST001,South,Snacks,Cookies,Warning,27,3.49,94.23
+T100486,2025-09-02,ST019,Northeast,Breakfast Foods,Strawberry Pop-Tarts,Normal,16,3.48,55.68
+T100487,2025-10-03,ST003,South,Family & Leisure,Board Games,Post-Storm,6,19.99,119.94
+T100488,2025-08-24,ST016,Northeast,Breakfast Foods,Cereal,Normal,9,4.89,44.01
+T100489,2025-08-28,ST014,Midwest,Household,Flashlights,Normal,6,12.49,74.94
+T100490,2025-09-13,ST013,Midwest,Breakfast Foods,Instant Oatmeal,Post-Storm,16,3.99,63.84
+T100491,2025-09-23,ST005,South,Household,Batteries,Normal,15,8.99,134.85
+T100492,2025-09-23,ST013,Midwest,Family & Leisure,Board Games,Watch,7,19.99,139.93
+T100493,2025-09-03,ST001,South,Breakfast Foods,Cereal,Normal,13,4.89,63.57
+T100494,2025-09-23,ST014,Midwest,Family & Leisure,Playing Cards,Warning,11,2.99,32.89
+T100495,2025-09-04,ST015,Midwest,Household,Batteries,Normal,9,8.99,80.91
+T100496,2025-08-27,ST002,South,Snacks,Granola Bars,Warning,29,4.39,127.31
+T100497,2025-08-21,ST008,Southeast,Beverages,Bottled Water,Normal,28,5.49,153.72
+T100498,2025-08-22,ST015,Midwest,Family & Leisure,Puzzles,Watch,7,11.99,83.93
+T100499,2025-08-23,ST008,Southeast,Breakfast Foods,Cereal,Normal,14,4.89,68.46
+T100500,2025-09-23,ST007,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Normal,20,3.48,69.6
+T100501,2025-09-07,ST008,Southeast,Family & Leisure,Playing Cards,Normal,6,2.99,17.94
+T100502,2025-10-02,ST011,Midwest,Beverages,Sports Drink,Warning,21,2.29,48.09
+T100503,2025-10-01,ST017,Northeast,Beverages,Sports Drink,Normal,14,2.29,32.06
+T100504,2025-08-23,ST018,Northeast,Family & Leisure,Puzzles,Warning,11,11.99,131.89
+T100505,2025-09-29,ST014,Midwest,Family & Leisure,Playing Cards,Normal,10,2.99,29.9
+T100506,2025-09-11,ST013,Midwest,Family & Leisure,Playing Cards,Watch,12,2.99,35.88
+T100507,2025-09-15,ST005,South,Household,Flashlights,Normal,7,12.49,87.43
+T100508,2025-09-23,ST016,Northeast,Beverages,Bottled Water,Normal,18,5.49,98.82
+T100509,2025-08-29,ST015,Midwest,Breakfast Foods,Instant Oatmeal,Normal,13,3.99,51.87
+T100510,2025-09-15,ST018,Northeast,Family & Leisure,Board Games,Normal,11,19.99,219.89
+T100511,2025-09-05,ST007,Southeast,Household,Paper Towels,Normal,16,9.29,148.64
+T100512,2025-09-17,ST012,Midwest,Breakfast Foods,Instant Oatmeal,Watch,9,3.99,35.91
+T100513,2025-09-01,ST002,South,Household,Flashlights,Watch,14,12.49,174.86
+T100514,2025-09-27,ST002,South,Breakfast Foods,Strawberry Pop-Tarts,Warning,32,3.48,111.36
+T100515,2025-09-26,ST018,Northeast,Beverages,Sports Drink,Normal,20,2.29,45.8
+T100516,2025-09-10,ST010,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Post-Storm,19,3.48,66.12
+T100517,2025-08-27,ST016,Northeast,Beverages,Orange Juice,Watch,18,4.19,75.42
+T100518,2025-09-02,ST013,Midwest,Beverages,Orange Juice,Normal,17,4.19,71.23
+T100519,2025-09-07,ST013,Midwest,Snacks,Granola Bars,Watch,16,4.39,70.24
+T100520,2025-09-08,ST009,Southeast,Household,Paper Towels,Warning,14,9.29,130.06
+T100521,2025-09-18,ST004,South,Snacks,Cookies,Warning,26,3.49,90.74
+T100522,2025-09-12,ST011,Midwest,Snacks,Chips,Normal,8,3.79,30.32
+T100523,2025-09-03,ST005,South,Breakfast Foods,Cereal,Normal,9,4.89,44.01
+T100524,2025-09-26,ST019,Northeast,Snacks,Cookies,Normal,12,3.49,41.88
+T100525,2025-09-10,ST008,Southeast,Snacks,Granola Bars,Warning,24,4.39,105.36
+T100526,2025-09-20,ST018,Northeast,Household,Flashlights,Warning,12,12.49,149.88
+T100527,2025-09-20,ST016,Northeast,Snacks,Chips,Watch,17,3.79,64.43
+T100528,2025-09-11,ST006,Southeast,Beverages,Orange Juice,Normal,22,4.19,92.18
+T100529,2025-08-31,ST018,Northeast,Breakfast Foods,Instant Oatmeal,Normal,14,3.99,55.86
+T100530,2025-08-24,ST002,South,Breakfast Foods,Cereal,Normal,11,4.89,53.79
+T100531,2025-09-29,ST008,Southeast,Breakfast Foods,Instant Oatmeal,Normal,10,3.99,39.9
+T100532,2025-09-02,ST017,Northeast,Snacks,Cookies,Normal,10,3.49,34.9
+T100533,2025-09-29,ST020,Northeast,Snacks,Granola Bars,Normal,15,4.39,65.85
+T100534,2025-08-20,ST018,Northeast,Family & Leisure,Playing Cards,Normal,3,2.99,8.97
+T100535,2025-09-22,ST009,Southeast,Family & Leisure,Playing Cards,Normal,12,2.99,35.88
+T100536,2025-10-03,ST014,Midwest,Beverages,Bottled Water,Warning,42,5.49,230.58
+T100537,2025-09-22,ST005,South,Beverages,Bottled Water,Watch,25,5.49,137.25
+T100538,2025-09-05,ST012,Midwest,Household,Flashlights,Normal,9,12.49,112.41
+T100539,2025-09-14,ST015,Midwest,Family & Leisure,Board Games,Post-Storm,10,19.99,199.9
+T100540,2025-09-03,ST010,Southeast,Breakfast Foods,Instant Oatmeal,Post-Storm,9,3.99,35.91
+T100541,2025-09-30,ST002,South,Breakfast Foods,Cereal,Normal,13,4.89,63.57
+T100542,2025-09-24,ST016,Northeast,Breakfast Foods,Instant Oatmeal,Normal,12,3.99,47.88
+T100543,2025-08-30,ST003,South,Snacks,Cookies,Watch,17,3.49,59.33
+T100544,2025-09-10,ST019,Northeast,Breakfast Foods,Instant Oatmeal,Warning,20,3.99,79.8
+T100545,2025-09-03,ST007,Southeast,Family & Leisure,Playing Cards,Normal,6,2.99,17.94
+T100546,2025-08-24,ST009,Southeast,Family & Leisure,Puzzles,Watch,9,11.99,107.91
+T100547,2025-08-31,ST011,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Watch,26,3.48,90.48
+T100548,2025-09-14,ST003,South,Household,Batteries,Normal,16,8.99,143.84
+T100549,2025-09-25,ST013,Midwest,Family & Leisure,Playing Cards,Normal,11,2.99,32.89
+T100550,2025-08-28,ST003,South,Family & Leisure,Puzzles,Post-Storm,10,11.99,119.9
+T100551,2025-08-23,ST004,South,Snacks,Chips,Warning,22,3.79,83.38
+T100552,2025-09-10,ST020,Northeast,Family & Leisure,Puzzles,Normal,3,11.99,35.97
+T100553,2025-09-09,ST001,South,Household,Flashlights,Normal,22,12.49,274.78
+T100554,2025-09-11,ST018,Northeast,Snacks,Cookies,Normal,12,3.49,41.88
+T100555,2025-09-26,ST013,Midwest,Breakfast Foods,Instant Oatmeal,Normal,12,3.99,47.88
+T100556,2025-09-04,ST003,South,Breakfast Foods,Cereal,Normal,10,4.89,48.9
+T100557,2025-09-29,ST005,South,Snacks,Cookies,Normal,12,3.49,41.88
+T100558,2025-08-25,ST001,South,Household,Flashlights,Normal,6,12.49,74.94
+T100559,2025-09-06,ST004,South,Beverages,Bottled Water,Normal,37,5.49,203.13
+T100560,2025-09-17,ST018,Northeast,Family & Leisure,Puzzles,Normal,6,11.99,71.94
+T100561,2025-08-21,ST003,South,Household,Paper Towels,Normal,10,9.29,92.9
+T100562,2025-09-27,ST011,Midwest,Snacks,Chips,Normal,19,3.79,72.01
+T100563,2025-09-13,ST003,South,Family & Leisure,Board Games,Normal,15,19.99,299.85
+T100564,2025-08-30,ST013,Midwest,Beverages,Bottled Water,Normal,28,5.49,153.72
+T100565,2025-09-06,ST016,Northeast,Beverages,Bottled Water,Normal,21,5.49,115.29
+T100566,2025-09-06,ST014,Midwest,Household,Flashlights,Warning,16,12.49,199.84
+T100567,2025-09-12,ST009,Southeast,Beverages,Orange Juice,Watch,16,4.19,67.04
+T100568,2025-09-27,ST020,Northeast,Beverages,Sports Drink,Normal,17,2.29,38.93
+T100569,2025-09-08,ST001,South,Snacks,Cookies,Warning,17,3.49,59.33
+T100570,2025-09-13,ST011,Midwest,Snacks,Cookies,Normal,17,3.49,59.33
+T100571,2025-09-30,ST020,Northeast,Beverages,Sports Drink,Normal,9,2.29,20.61
+T100572,2025-10-03,ST007,Southeast,Snacks,Cookies,Normal,23,3.49,80.27
+T100573,2025-09-14,ST011,Midwest,Household,Paper Towels,Watch,14,9.29,130.06
+T100574,2025-09-20,ST019,Northeast,Beverages,Sports Drink,Normal,18,2.29,41.22
+T100575,2025-09-14,ST012,Midwest,Breakfast Foods,Instant Oatmeal,Normal,13,3.99,51.87
+T100576,2025-09-23,ST006,Southeast,Family & Leisure,Board Games,Post-Storm,6,19.99,119.94
+T100577,2025-09-18,ST007,Southeast,Snacks,Cookies,Warning,21,3.49,73.29
+T100578,2025-08-24,ST014,Midwest,Snacks,Chips,Watch,16,3.79,60.64
+T100579,2025-09-04,ST009,Southeast,Beverages,Orange Juice,Normal,9,4.19,37.71
+T100580,2025-09-13,ST003,South,Snacks,Granola Bars,Normal,18,4.39,79.02
+T100581,2025-09-14,ST018,Northeast,Family & Leisure,Puzzles,Normal,12,11.99,143.88
+T100582,2025-08-22,ST012,Midwest,Family & Leisure,Puzzles,Watch,10,11.99,119.9
+T100583,2025-08-25,ST004,South,Beverages,Orange Juice,Watch,23,4.19,96.37
+T100584,2025-08-30,ST020,Northeast,Breakfast Foods,Instant Oatmeal,Post-Storm,8,3.99,31.92
+T100585,2025-10-02,ST013,Midwest,Household,Flashlights,Normal,11,12.49,137.39
+T100586,2025-08-26,ST009,Southeast,Beverages,Orange Juice,Watch,21,4.19,87.99
+T100587,2025-09-24,ST019,Northeast,Family & Leisure,Board Games,Normal,3,19.99,59.97
+T100588,2025-09-14,ST015,Midwest,Family & Leisure,Puzzles,Normal,12,11.99,143.88
+T100589,2025-09-11,ST001,South,Snacks,Chips,Normal,26,3.79,98.54
+T100590,2025-08-25,ST004,South,Beverages,Sports Drink,Normal,19,2.29,43.51
+T100591,2025-09-18,ST007,Southeast,Family & Leisure,Playing Cards,Normal,9,2.99,26.91
+T100592,2025-08-26,ST015,Midwest,Snacks,Cookies,Normal,6,3.49,20.94
+T100593,2025-08-22,ST004,South,Breakfast Foods,Cereal,Watch,16,4.89,78.24
+T100594,2025-10-02,ST006,Southeast,Beverages,Orange Juice,Normal,21,4.19,87.99
+T100595,2025-08-30,ST011,Midwest,Family & Leisure,Playing Cards,Post-Storm,10,2.99,29.9
+T100596,2025-09-03,ST013,Midwest,Beverages,Bottled Water,Watch,26,5.49,142.74
+T100597,2025-09-16,ST013,Midwest,Breakfast Foods,Instant Oatmeal,Watch,13,3.99,51.87
+T100598,2025-09-01,ST015,Midwest,Family & Leisure,Playing Cards,Normal,8,2.99,23.92
+T100599,2025-09-02,ST007,Southeast,Household,Paper Towels,Warning,20,9.29,185.8
+T100600,2025-08-24,ST019,Northeast,Breakfast Foods,Instant Oatmeal,Normal,8,3.99,31.92
+T100601,2025-09-09,ST007,Southeast,Snacks,Chips,Normal,20,3.79,75.8
+T100602,2025-09-20,ST017,Northeast,Household,Paper Towels,Normal,14,9.29,130.06
+T100603,2025-09-14,ST019,Northeast,Breakfast Foods,Cereal,Normal,19,4.89,92.91
+T100604,2025-09-18,ST020,Northeast,Beverages,Orange Juice,Watch,18,4.19,75.42
+T100605,2025-09-08,ST020,Northeast,Family & Leisure,Board Games,Watch,7,19.99,139.93
+T100606,2025-09-09,ST004,South,Beverages,Sports Drink,Normal,20,2.29,45.8
+T100607,2025-09-12,ST005,South,Family & Leisure,Playing Cards,Normal,9,2.99,26.91
+T100608,2025-08-28,ST019,Northeast,Snacks,Cookies,Normal,17,3.49,59.33
+T100609,2025-09-29,ST018,Northeast,Beverages,Orange Juice,Normal,11,4.19,46.09
+T100610,2025-09-07,ST005,South,Beverages,Sports Drink,Warning,38,2.29,87.02
+T100611,2025-09-28,ST002,South,Household,Batteries,Normal,17,8.99,152.83
+T100612,2025-09-01,ST013,Midwest,Family & Leisure,Puzzles,Watch,4,11.99,47.96
+T100613,2025-09-15,ST016,Northeast,Snacks,Granola Bars,Warning,16,4.39,70.24
+T100614,2025-09-20,ST006,Southeast,Breakfast Foods,Instant Oatmeal,Normal,14,3.99,55.86
+T100615,2025-09-03,ST010,Southeast,Breakfast Foods,Cereal,Normal,7,4.89,34.23
+T100616,2025-09-07,ST006,Southeast,Snacks,Granola Bars,Watch,9,4.39,39.51
+T100617,2025-09-20,ST018,Northeast,Family & Leisure,Board Games,Normal,9,19.99,179.91
+T100618,2025-09-06,ST018,Northeast,Household,Paper Towels,Warning,14,9.29,130.06
+T100619,2025-08-22,ST015,Midwest,Family & Leisure,Board Games,Post-Storm,10,19.99,199.9
+T100620,2025-08-26,ST008,Southeast,Household,Batteries,Normal,7,8.99,62.93
+T100621,2025-09-11,ST003,South,Snacks,Chips,Warning,19,3.79,72.01
+T100622,2025-09-04,ST007,Southeast,Family & Leisure,Puzzles,Normal,9,11.99,107.91
+T100623,2025-09-28,ST014,Midwest,Beverages,Orange Juice,Normal,21,4.19,87.99
+T100624,2025-09-02,ST007,Southeast,Breakfast Foods,Instant Oatmeal,Normal,16,3.99,63.84
+T100625,2025-09-06,ST020,Northeast,Family & Leisure,Board Games,Normal,1,19.99,19.99
+T100626,2025-09-07,ST010,Southeast,Family & Leisure,Playing Cards,Post-Storm,4,2.99,11.96
+T100627,2025-09-21,ST004,South,Beverages,Sports Drink,Warning,39,2.29,89.31
+T100628,2025-09-06,ST005,South,Beverages,Bottled Water,Normal,27,5.49,148.23
+T100629,2025-09-09,ST008,Southeast,Snacks,Cookies,Normal,13,3.49,45.37
+T100630,2025-09-29,ST009,Southeast,Snacks,Cookies,Normal,14,3.49,48.86
+T100631,2025-09-29,ST003,South,Snacks,Granola Bars,Watch,24,4.39,105.36
+T100632,2025-10-03,ST012,Midwest,Snacks,Cookies,Normal,12,3.49,41.88
+T100633,2025-08-20,ST003,South,Snacks,Granola Bars,Watch,17,4.39,74.63
+T100634,2025-09-11,ST003,South,Family & Leisure,Playing Cards,Normal,6,2.99,17.94
+T100635,2025-09-16,ST007,Southeast,Snacks,Cookies,Normal,11,3.49,38.39
+T100636,2025-09-07,ST011,Midwest,Family & Leisure,Puzzles,Normal,10,11.99,119.9
+T100637,2025-09-20,ST011,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Normal,15,3.48,52.2
+T100638,2025-09-18,ST001,South,Breakfast Foods,Strawberry Pop-Tarts,Normal,19,3.48,66.12
+T100639,2025-08-20,ST014,Midwest,Beverages,Orange Juice,Warning,24,4.19,100.56
+T100640,2025-09-30,ST010,Southeast,Beverages,Sports Drink,Normal,18,2.29,41.22
+T100641,2025-09-12,ST009,Southeast,Breakfast Foods,Cereal,Watch,14,4.89,68.46
+T100642,2025-09-30,ST006,Southeast,Breakfast Foods,Cereal,Watch,20,4.89,97.8
+T100643,2025-10-03,ST008,Southeast,Snacks,Granola Bars,Normal,17,4.39,74.63
+T100644,2025-08-26,ST001,South,Beverages,Sports Drink,Normal,27,2.29,61.83
+T100645,2025-09-26,ST008,Southeast,Family & Leisure,Puzzles,Normal,10,11.99,119.9
+T100646,2025-08-20,ST011,Midwest,Breakfast Foods,Cereal,Watch,18,4.89,88.02
+T100647,2025-09-19,ST003,South,Beverages,Sports Drink,Normal,19,2.29,43.51
+T100648,2025-08-26,ST004,South,Household,Flashlights,Warning,11,12.49,137.39
+T100649,2025-08-28,ST013,Midwest,Beverages,Orange Juice,Post-Storm,13,4.19,54.47
+T100650,2025-08-29,ST003,South,Family & Leisure,Puzzles,Normal,6,11.99,71.94
+T100651,2025-09-30,ST006,Southeast,Snacks,Cookies,Watch,18,3.49,62.82
+T100652,2025-09-29,ST005,South,Snacks,Granola Bars,Watch,16,4.39,70.24
+T100653,2025-09-02,ST003,South,Breakfast Foods,Strawberry Pop-Tarts,Watch,25,3.48,87.0
+T100654,2025-09-26,ST013,Midwest,Household,Flashlights,Normal,6,12.49,74.94
+T100655,2025-08-28,ST008,Southeast,Household,Paper Towels,Normal,14,9.29,130.06
+T100656,2025-09-24,ST020,Northeast,Family & Leisure,Puzzles,Watch,2,11.99,23.98
+T100657,2025-10-03,ST001,South,Household,Batteries,Normal,12,8.99,107.88
+T100658,2025-09-21,ST007,Southeast,Snacks,Cookies,Watch,18,3.49,62.82
+T100659,2025-09-04,ST016,Northeast,Snacks,Chips,Normal,10,3.79,37.9
+T100660,2025-09-29,ST020,Northeast,Breakfast Foods,Instant Oatmeal,Warning,12,3.99,47.88
+T100661,2025-08-20,ST012,Midwest,Household,Batteries,Normal,12,8.99,107.88
+T100662,2025-09-25,ST014,Midwest,Household,Paper Towels,Watch,11,9.29,102.19
+T100663,2025-09-19,ST003,South,Breakfast Foods,Instant Oatmeal,Normal,7,3.99,27.93
+T100664,2025-09-05,ST007,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Post-Storm,12,3.48,41.76
+T100665,2025-09-14,ST017,Northeast,Household,Paper Towels,Watch,6,9.29,55.74
+T100666,2025-09-15,ST014,Midwest,Snacks,Chips,Watch,19,3.79,72.01
+T100667,2025-09-23,ST020,Northeast,Beverages,Sports Drink,Normal,18,2.29,41.22
+T100668,2025-08-25,ST017,Northeast,Beverages,Bottled Water,Normal,25,5.49,137.25
+T100669,2025-09-14,ST019,Northeast,Breakfast Foods,Cereal,Watch,12,4.89,58.68
+T100670,2025-09-04,ST002,South,Beverages,Bottled Water,Post-Storm,23,5.49,126.27
+T100671,2025-08-27,ST015,Midwest,Family & Leisure,Puzzles,Normal,4,11.99,47.96
+T100672,2025-10-01,ST006,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Watch,22,3.48,76.56
+T100673,2025-10-03,ST001,South,Beverages,Sports Drink,Post-Storm,19,2.29,43.51
+T100674,2025-09-22,ST017,Northeast,Household,Batteries,Normal,11,8.99,98.89
+T100675,2025-09-06,ST004,South,Breakfast Foods,Cereal,Warning,13,4.89,63.57
+T100676,2025-09-06,ST017,Northeast,Breakfast Foods,Cereal,Watch,17,4.89,83.13
+T100677,2025-09-25,ST003,South,Snacks,Cookies,Normal,17,3.49,59.33
+T100678,2025-08-23,ST016,Northeast,Family & Leisure,Board Games,Normal,3,19.99,59.97
+T100679,2025-09-05,ST004,South,Family & Leisure,Puzzles,Watch,14,11.99,167.86
+T100680,2025-09-03,ST017,Northeast,Breakfast Foods,Strawberry Pop-Tarts,Warning,22,3.48,76.56
+T100681,2025-08-20,ST008,Southeast,Breakfast Foods,Cereal,Normal,22,4.89,107.58
+T100682,2025-08-29,ST006,Southeast,Breakfast Foods,Instant Oatmeal,Warning,14,3.99,55.86
+T100683,2025-09-30,ST014,Midwest,Beverages,Sports Drink,Normal,20,2.29,45.8
+T100684,2025-09-09,ST009,Southeast,Breakfast Foods,Instant Oatmeal,Normal,15,3.99,59.85
+T100685,2025-09-21,ST002,South,Beverages,Bottled Water,Warning,38,5.49,208.62
+T100686,2025-08-22,ST013,Midwest,Breakfast Foods,Cereal,Warning,20,4.89,97.8
+T100687,2025-09-08,ST011,Midwest,Breakfast Foods,Instant Oatmeal,Normal,10,3.99,39.9
+T100688,2025-09-12,ST007,Southeast,Household,Paper Towels,Warning,12,9.29,111.48
+T100689,2025-09-28,ST008,Southeast,Snacks,Cookies,Watch,15,3.49,52.35
+T100690,2025-09-20,ST007,Southeast,Family & Leisure,Board Games,Normal,8,19.99,159.92
+T100691,2025-09-15,ST001,South,Beverages,Orange Juice,Normal,18,4.19,75.42
+T100692,2025-10-03,ST001,South,Household,Batteries,Watch,15,8.99,134.85
+T100693,2025-09-13,ST010,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Normal,29,3.48,100.92
+T100694,2025-09-04,ST014,Midwest,Snacks,Chips,Post-Storm,10,3.79,37.9
+T100695,2025-08-29,ST009,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Post-Storm,13,3.48,45.24
+T100696,2025-09-22,ST014,Midwest,Household,Flashlights,Post-Storm,7,12.49,87.43
+T100697,2025-08-25,ST019,Northeast,Breakfast Foods,Instant Oatmeal,Normal,2,3.99,7.98
+T100698,2025-09-14,ST003,South,Family & Leisure,Puzzles,Normal,11,11.99,131.89
+T100699,2025-10-01,ST005,South,Beverages,Sports Drink,Normal,27,2.29,61.83
+T100700,2025-09-09,ST013,Midwest,Household,Flashlights,Normal,9,12.49,112.41
+T100701,2025-09-03,ST003,South,Beverages,Bottled Water,Warning,42,5.49,230.58
+T100702,2025-09-26,ST004,South,Beverages,Bottled Water,Normal,34,5.49,186.66
+T100703,2025-09-18,ST011,Midwest,Snacks,Chips,Normal,11,3.79,41.69
+T100704,2025-09-02,ST015,Midwest,Household,Flashlights,Normal,8,12.49,99.92
+T100705,2025-08-27,ST003,South,Beverages,Orange Juice,Normal,25,4.19,104.75
+T100706,2025-10-03,ST020,Northeast,Breakfast Foods,Strawberry Pop-Tarts,Warning,20,3.48,69.6
+T100707,2025-09-09,ST005,South,Breakfast Foods,Instant Oatmeal,Normal,10,3.99,39.9
+T100708,2025-09-11,ST013,Midwest,Family & Leisure,Board Games,Watch,2,19.99,39.98
+T100709,2025-09-05,ST006,Southeast,Breakfast Foods,Cereal,Warning,15,4.89,73.35
+T100710,2025-09-24,ST018,Northeast,Beverages,Bottled Water,Normal,22,5.49,120.78
+T100711,2025-08-28,ST004,South,Breakfast Foods,Strawberry Pop-Tarts,Warning,24,3.48,83.52
+T100712,2025-09-03,ST005,South,Beverages,Sports Drink,Normal,25,2.29,57.25
+T100713,2025-09-29,ST003,South,Family & Leisure,Puzzles,Normal,11,11.99,131.89
+T100714,2025-08-24,ST001,South,Breakfast Foods,Strawberry Pop-Tarts,Warning,35,3.48,121.8
+T100715,2025-09-17,ST005,South,Breakfast Foods,Cereal,Normal,22,4.89,107.58
+T100716,2025-09-18,ST002,South,Beverages,Orange Juice,Normal,17,4.19,71.23
+T100717,2025-09-14,ST016,Northeast,Breakfast Foods,Cereal,Watch,11,4.89,53.79
+T100718,2025-08-31,ST012,Midwest,Beverages,Bottled Water,Normal,30,5.49,164.7
+T100719,2025-09-17,ST005,South,Breakfast Foods,Instant Oatmeal,Watch,16,3.99,63.84
+T100720,2025-09-04,ST010,Southeast,Snacks,Cookies,Warning,27,3.49,94.23
+T100721,2025-09-19,ST002,South,Breakfast Foods,Cereal,Normal,16,4.89,78.24
+T100722,2025-09-15,ST007,Southeast,Family & Leisure,Board Games,Watch,8,19.99,159.92
+T100723,2025-09-23,ST001,South,Snacks,Granola Bars,Normal,12,4.39,52.68
+T100724,2025-09-23,ST016,Northeast,Household,Paper Towels,Normal,13,9.29,120.77
+T100725,2025-09-13,ST009,Southeast,Beverages,Bottled Water,Normal,37,5.49,203.13
+T100726,2025-09-03,ST001,South,Household,Batteries,Warning,20,8.99,179.8
+T100727,2025-09-19,ST017,Northeast,Household,Paper Towels,Post-Storm,11,9.29,102.19
+T100728,2025-08-30,ST004,South,Beverages,Orange Juice,Normal,16,4.19,67.04
+T100729,2025-09-23,ST002,South,Beverages,Orange Juice,Warning,24,4.19,100.56
+T100730,2025-09-13,ST012,Midwest,Beverages,Bottled Water,Normal,23,5.49,126.27
+T100731,2025-09-09,ST012,Midwest,Family & Leisure,Board Games,Watch,9,19.99,179.91
+T100732,2025-09-11,ST019,Northeast,Family & Leisure,Board Games,Normal,8,19.99,159.92
+T100733,2025-09-01,ST016,Northeast,Family & Leisure,Playing Cards,Normal,5,2.99,14.95
+T100734,2025-08-22,ST003,South,Breakfast Foods,Strawberry Pop-Tarts,Watch,20,3.48,69.6
+T100735,2025-08-21,ST017,Northeast,Snacks,Chips,Normal,14,3.79,53.06
+T100736,2025-09-28,ST007,Southeast,Beverages,Sports Drink,Watch,27,2.29,61.83
+T100737,2025-09-09,ST002,South,Breakfast Foods,Strawberry Pop-Tarts,Watch,20,3.48,69.6
+T100738,2025-08-29,ST004,South,Family & Leisure,Playing Cards,Post-Storm,5,2.99,14.95
+T100739,2025-09-12,ST013,Midwest,Family & Leisure,Board Games,Normal,8,19.99,159.92
+T100740,2025-09-09,ST005,South,Beverages,Orange Juice,Post-Storm,17,4.19,71.23
+T100741,2025-09-29,ST016,Northeast,Household,Batteries,Watch,9,8.99,80.91
+T100742,2025-09-24,ST020,Northeast,Household,Batteries,Watch,10,8.99,89.9
+T100743,2025-08-31,ST013,Midwest,Household,Paper Towels,Watch,13,9.29,120.77
+T100744,2025-08-28,ST006,Southeast,Breakfast Foods,Instant Oatmeal,Post-Storm,10,3.99,39.9
+T100745,2025-09-14,ST019,Northeast,Breakfast Foods,Strawberry Pop-Tarts,Watch,19,3.48,66.12
+T100746,2025-09-28,ST008,Southeast,Family & Leisure,Board Games,Post-Storm,6,19.99,119.94
+T100747,2025-08-29,ST011,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Normal,17,3.48,59.16
+T100748,2025-09-09,ST006,Southeast,Breakfast Foods,Instant Oatmeal,Watch,12,3.99,47.88
+T100749,2025-09-10,ST015,Midwest,Breakfast Foods,Cereal,Normal,6,4.89,29.34
+T100750,2025-10-03,ST003,South,Household,Flashlights,Warning,25,12.49,312.25
+T100751,2025-08-20,ST002,South,Snacks,Cookies,Watch,25,3.49,87.25
+T100752,2025-08-30,ST014,Midwest,Snacks,Cookies,Normal,15,3.49,52.35
+T100753,2025-09-13,ST004,South,Snacks,Granola Bars,Watch,23,4.39,100.97
+T100754,2025-10-02,ST008,Southeast,Beverages,Sports Drink,Normal,16,2.29,36.64
+T100755,2025-08-22,ST010,Southeast,Breakfast Foods,Cereal,Normal,22,4.89,107.58
+T100756,2025-08-26,ST003,South,Household,Batteries,Warning,26,8.99,233.74
+T100757,2025-08-30,ST003,South,Family & Leisure,Board Games,Normal,5,19.99,99.95
+T100758,2025-09-28,ST016,Northeast,Breakfast Foods,Cereal,Post-Storm,10,4.89,48.9
+T100759,2025-08-30,ST020,Northeast,Snacks,Chips,Normal,11,3.79,41.69
+T100760,2025-09-10,ST007,Southeast,Beverages,Sports Drink,Watch,15,2.29,34.35
+T100761,2025-09-23,ST009,Southeast,Household,Flashlights,Normal,8,12.49,99.92
+T100762,2025-08-23,ST013,Midwest,Family & Leisure,Puzzles,Warning,13,11.99,155.87
+T100763,2025-08-29,ST002,South,Household,Batteries,Normal,11,8.99,98.89
+T100764,2025-09-07,ST020,Northeast,Snacks,Chips,Normal,16,3.79,60.64
+T100765,2025-09-02,ST006,Southeast,Household,Batteries,Normal,14,8.99,125.86
+T100766,2025-08-27,ST010,Southeast,Snacks,Cookies,Normal,14,3.49,48.86
+T100767,2025-10-01,ST009,Southeast,Breakfast Foods,Instant Oatmeal,Normal,14,3.99,55.86
+T100768,2025-08-31,ST012,Midwest,Snacks,Cookies,Normal,12,3.49,41.88
+T100769,2025-08-22,ST009,Southeast,Snacks,Cookies,Normal,21,3.49,73.29
+T100770,2025-09-06,ST019,Northeast,Breakfast Foods,Strawberry Pop-Tarts,Watch,23,3.48,80.04
+T100771,2025-10-01,ST004,South,Breakfast Foods,Instant Oatmeal,Normal,15,3.99,59.85
+T100772,2025-09-23,ST014,Midwest,Family & Leisure,Board Games,Normal,9,19.99,179.91
+T100773,2025-09-13,ST017,Northeast,Snacks,Granola Bars,Watch,13,4.39,57.07
+T100774,2025-09-19,ST019,Northeast,Beverages,Sports Drink,Normal,8,2.29,18.32
+T100775,2025-09-14,ST002,South,Family & Leisure,Puzzles,Warning,19,11.99,227.81
+T100776,2025-09-25,ST020,Northeast,Beverages,Bottled Water,Post-Storm,24,5.49,131.76
+T100777,2025-09-17,ST006,Southeast,Beverages,Bottled Water,Warning,43,5.49,236.07
+T100778,2025-08-28,ST002,South,Snacks,Chips,Post-Storm,10,3.79,37.9
+T100779,2025-09-16,ST007,Southeast,Beverages,Orange Juice,Normal,12,4.19,50.28
+T100780,2025-08-24,ST003,South,Snacks,Granola Bars,Normal,22,4.39,96.58
+T100781,2025-09-09,ST009,Southeast,Family & Leisure,Playing Cards,Warning,6,2.99,17.94
+T100782,2025-08-20,ST020,Northeast,Family & Leisure,Puzzles,Warning,12,11.99,143.88
+T100783,2025-08-27,ST014,Midwest,Beverages,Bottled Water,Normal,24,5.49,131.76
+T100784,2025-09-26,ST004,South,Breakfast Foods,Instant Oatmeal,Warning,26,3.99,103.74
+T100785,2025-09-07,ST018,Northeast,Household,Flashlights,Normal,14,12.49,174.86
+T100786,2025-09-30,ST016,Northeast,Family & Leisure,Puzzles,Normal,4,11.99,47.96
+T100787,2025-08-31,ST009,Southeast,Snacks,Chips,Watch,23,3.79,87.17
+T100788,2025-10-02,ST013,Midwest,Breakfast Foods,Cereal,Warning,17,4.89,83.13
+T100789,2025-09-10,ST008,Southeast,Breakfast Foods,Instant Oatmeal,Normal,7,3.99,27.93
+T100790,2025-09-06,ST012,Midwest,Breakfast Foods,Cereal,Warning,14,4.89,68.46
+T100791,2025-09-08,ST010,Southeast,Household,Flashlights,Warning,10,12.49,124.9
+T100792,2025-10-02,ST004,South,Beverages,Bottled Water,Normal,29,5.49,159.21
+T100793,2025-09-17,ST011,Midwest,Household,Paper Towels,Normal,8,9.29,74.32
+T100794,2025-09-30,ST003,South,Beverages,Sports Drink,Normal,20,2.29,45.8
+T100795,2025-09-15,ST016,Northeast,Family & Leisure,Playing Cards,Warning,10,2.99,29.9
+T100796,2025-09-21,ST006,Southeast,Breakfast Foods,Cereal,Watch,14,4.89,68.46
+T100797,2025-09-14,ST005,South,Family & Leisure,Puzzles,Normal,8,11.99,95.92
+T100798,2025-09-01,ST007,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Normal,22,3.48,76.56
+T100799,2025-08-23,ST012,Midwest,Beverages,Sports Drink,Normal,18,2.29,41.22
+T100800,2025-09-18,ST017,Northeast,Snacks,Granola Bars,Post-Storm,13,4.39,57.07
+T100801,2025-10-02,ST001,South,Beverages,Sports Drink,Normal,17,2.29,38.93
+T100802,2025-09-17,ST006,Southeast,Snacks,Granola Bars,Normal,18,4.39,79.02
+T100803,2025-09-11,ST006,Southeast,Household,Paper Towels,Warning,20,9.29,185.8
+T100804,2025-08-25,ST010,Southeast,Breakfast Foods,Cereal,Normal,17,4.89,83.13
+T100805,2025-09-25,ST007,Southeast,Beverages,Orange Juice,Normal,17,4.19,71.23
+T100806,2025-09-02,ST009,Southeast,Snacks,Granola Bars,Normal,15,4.39,65.85
+T100807,2025-10-02,ST001,South,Snacks,Chips,Watch,18,3.79,68.22
+T100808,2025-09-27,ST001,South,Beverages,Sports Drink,Watch,24,2.29,54.96
+T100809,2025-09-08,ST009,Southeast,Snacks,Cookies,Warning,30,3.49,104.7
+T100810,2025-09-18,ST009,Southeast,Beverages,Sports Drink,Normal,18,2.29,41.22
+T100811,2025-09-22,ST020,Northeast,Snacks,Granola Bars,Normal,23,4.39,100.97
+T100812,2025-09-21,ST012,Midwest,Family & Leisure,Puzzles,Watch,9,11.99,107.91
+T100813,2025-09-07,ST010,Southeast,Breakfast Foods,Cereal,Normal,12,4.89,58.68
+T100814,2025-09-06,ST011,Midwest,Household,Flashlights,Watch,5,12.49,62.45
+T100815,2025-09-30,ST010,Southeast,Beverages,Bottled Water,Normal,27,5.49,148.23
+T100816,2025-09-04,ST002,South,Family & Leisure,Playing Cards,Watch,6,2.99,17.94
+T100817,2025-10-02,ST005,South,Breakfast Foods,Instant Oatmeal,Normal,17,3.99,67.83
+T100818,2025-09-07,ST009,Southeast,Snacks,Cookies,Normal,17,3.49,59.33
+T100819,2025-08-22,ST019,Northeast,Family & Leisure,Board Games,Normal,11,19.99,219.89
+T100820,2025-09-03,ST018,Northeast,Snacks,Granola Bars,Normal,18,4.39,79.02
+T100821,2025-09-08,ST006,Southeast,Family & Leisure,Board Games,Normal,10,19.99,199.9
+T100822,2025-09-19,ST005,South,Household,Paper Towels,Warning,13,9.29,120.77
+T100823,2025-08-31,ST011,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Normal,15,3.48,52.2
+T100824,2025-09-08,ST014,Midwest,Household,Flashlights,Normal,10,12.49,124.9
+T100825,2025-09-07,ST015,Midwest,Breakfast Foods,Cereal,Normal,19,4.89,92.91
+T100826,2025-09-29,ST019,Northeast,Family & Leisure,Puzzles,Normal,5,11.99,59.95
+T100827,2025-09-01,ST017,Northeast,Breakfast Foods,Instant Oatmeal,Normal,8,3.99,31.92
+T100828,2025-09-08,ST014,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Normal,19,3.48,66.12
+T100829,2025-09-01,ST011,Midwest,Snacks,Granola Bars,Warning,23,4.39,100.97
+T100830,2025-09-18,ST005,South,Household,Paper Towels,Normal,6,9.29,55.74
+T100831,2025-08-25,ST016,Northeast,Household,Paper Towels,Post-Storm,4,9.29,37.16
+T100832,2025-09-09,ST002,South,Breakfast Foods,Cereal,Normal,19,4.89,92.91
+T100833,2025-08-30,ST019,Northeast,Beverages,Sports Drink,Warning,26,2.29,59.54
+T100834,2025-08-25,ST005,South,Family & Leisure,Playing Cards,Watch,12,2.99,35.88
+T100835,2025-09-14,ST014,Midwest,Snacks,Cookies,Normal,11,3.49,38.39
+T100836,2025-09-23,ST007,Southeast,Household,Batteries,Warning,19,8.99,170.81
+T100837,2025-09-22,ST007,Southeast,Breakfast Foods,Instant Oatmeal,Normal,17,3.99,67.83
+T100838,2025-09-04,ST008,Southeast,Household,Flashlights,Normal,9,12.49,112.41
+T100839,2025-09-13,ST017,Northeast,Family & Leisure,Playing Cards,Normal,3,2.99,8.97
+T100840,2025-08-22,ST010,Southeast,Household,Flashlights,Watch,16,12.49,199.84
+T100841,2025-09-27,ST017,Northeast,Household,Flashlights,Warning,18,12.49,224.82
+T100842,2025-08-28,ST011,Midwest,Snacks,Cookies,Watch,16,3.49,55.84
+T100843,2025-08-30,ST013,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Normal,22,3.48,76.56
+T100844,2025-08-28,ST007,Southeast,Breakfast Foods,Instant Oatmeal,Normal,16,3.99,63.84
+T100845,2025-08-27,ST012,Midwest,Breakfast Foods,Cereal,Warning,19,4.89,92.91
+T100846,2025-09-05,ST018,Northeast,Family & Leisure,Board Games,Watch,13,19.99,259.87
+T100847,2025-08-23,ST004,South,Breakfast Foods,Strawberry Pop-Tarts,Watch,23,3.48,80.04
+T100848,2025-09-15,ST015,Midwest,Snacks,Chips,Normal,15,3.79,56.85
+T100849,2025-09-19,ST005,South,Beverages,Orange Juice,Watch,34,4.19,142.46
+T100850,2025-08-20,ST010,Southeast,Snacks,Granola Bars,Normal,15,4.39,65.85
+T100851,2025-09-22,ST009,Southeast,Family & Leisure,Puzzles,Watch,11,11.99,131.89
+T100852,2025-09-15,ST004,South,Family & Leisure,Puzzles,Watch,10,11.99,119.9
+T100853,2025-09-07,ST004,South,Breakfast Foods,Cereal,Normal,16,4.89,78.24
+T100854,2025-09-01,ST009,Southeast,Family & Leisure,Board Games,Normal,6,19.99,119.94
+T100855,2025-09-15,ST010,Southeast,Beverages,Bottled Water,Normal,19,5.49,104.31
+T100856,2025-09-02,ST016,Northeast,Household,Batteries,Normal,13,8.99,116.87
+T100857,2025-10-01,ST003,South,Breakfast Foods,Instant Oatmeal,Watch,12,3.99,47.88
+T100858,2025-08-29,ST003,South,Family & Leisure,Board Games,Watch,8,19.99,159.92
+T100859,2025-08-26,ST009,Southeast,Beverages,Sports Drink,Post-Storm,24,2.29,54.96
+T100860,2025-09-07,ST009,Southeast,Snacks,Chips,Normal,22,3.79,83.38
+T100861,2025-08-31,ST002,South,Household,Flashlights,Warning,16,12.49,199.84
+T100862,2025-09-09,ST014,Midwest,Breakfast Foods,Strawberry Pop-Tarts,Warning,14,3.48,48.72
+T100863,2025-08-22,ST001,South,Beverages,Orange Juice,Watch,15,4.19,62.85
+T100864,2025-09-10,ST012,Midwest,Snacks,Granola Bars,Normal,10,4.39,43.9
+T100865,2025-08-25,ST012,Midwest,Household,Batteries,Normal,9,8.99,80.91
+T100866,2025-09-14,ST015,Midwest,Household,Flashlights,Watch,8,12.49,99.92
+T100867,2025-09-19,ST014,Midwest,Beverages,Bottled Water,Normal,20,5.49,109.8
+T100868,2025-08-23,ST006,Southeast,Breakfast Foods,Cereal,Warning,18,4.89,88.02
+T100869,2025-09-19,ST019,Northeast,Snacks,Chips,Watch,11,3.79,41.69
+T100870,2025-09-11,ST020,Northeast,Breakfast Foods,Instant Oatmeal,Warning,13,3.99,51.87
+T100871,2025-08-28,ST016,Northeast,Snacks,Chips,Warning,20,3.79,75.8
+T100872,2025-09-17,ST002,South,Breakfast Foods,Cereal,Watch,12,4.89,58.68
+T100873,2025-08-20,ST017,Northeast,Family & Leisure,Puzzles,Normal,4,11.99,47.96
+T100874,2025-10-01,ST011,Midwest,Family & Leisure,Puzzles,Watch,7,11.99,83.93
+T100875,2025-09-28,ST004,South,Snacks,Granola Bars,Watch,22,4.39,96.58
+T100876,2025-09-19,ST012,Midwest,Snacks,Chips,Warning,19,3.79,72.01
+T100877,2025-09-24,ST020,Northeast,Breakfast Foods,Strawberry Pop-Tarts,Watch,16,3.48,55.68
+T100878,2025-08-30,ST017,Northeast,Snacks,Cookies,Warning,25,3.49,87.25
+T100879,2025-08-24,ST016,Northeast,Household,Batteries,Normal,11,8.99,98.89
+T100880,2025-09-06,ST002,South,Family & Leisure,Board Games,Normal,18,19.99,359.82
+T100881,2025-09-13,ST013,Midwest,Beverages,Bottled Water,Normal,32,5.49,175.68
+T100882,2025-09-25,ST015,Midwest,Breakfast Foods,Cereal,Normal,10,4.89,48.9
+T100883,2025-08-27,ST016,Northeast,Breakfast Foods,Strawberry Pop-Tarts,Normal,18,3.48,62.64
+T100884,2025-08-22,ST018,Northeast,Family & Leisure,Board Games,Warning,7,19.99,139.93
+T100885,2025-09-27,ST020,Northeast,Household,Paper Towels,Normal,10,9.29,92.9
+T100886,2025-09-30,ST015,Midwest,Household,Flashlights,Warning,11,12.49,137.39
+T100887,2025-09-03,ST015,Midwest,Household,Paper Towels,Warning,10,9.29,92.9
+T100888,2025-09-27,ST016,Northeast,Household,Paper Towels,Normal,10,9.29,92.9
+T100889,2025-08-26,ST008,Southeast,Breakfast Foods,Cereal,Normal,17,4.89,83.13
+T100890,2025-09-29,ST010,Southeast,Family & Leisure,Puzzles,Normal,6,11.99,71.94
+T100891,2025-08-26,ST002,South,Beverages,Sports Drink,Normal,25,2.29,57.25
+T100892,2025-09-15,ST004,South,Household,Paper Towels,Normal,14,9.29,130.06
+T100893,2025-08-27,ST013,Midwest,Beverages,Sports Drink,Warning,24,2.29,54.96
+T100894,2025-09-01,ST011,Midwest,Breakfast Foods,Cereal,Normal,6,4.89,29.34
+T100895,2025-09-29,ST019,Northeast,Breakfast Foods,Cereal,Normal,16,4.89,78.24
+T100896,2025-09-26,ST017,Northeast,Beverages,Sports Drink,Normal,14,2.29,32.06
+T100897,2025-08-23,ST018,Northeast,Snacks,Granola Bars,Normal,11,4.39,48.29
+T100898,2025-09-21,ST006,Southeast,Family & Leisure,Board Games,Watch,11,19.99,219.89
+T100899,2025-08-28,ST004,South,Snacks,Granola Bars,Watch,22,4.39,96.58
+T100900,2025-09-09,ST017,Northeast,Snacks,Cookies,Post-Storm,11,3.49,38.39
+T100901,2025-10-03,ST008,Southeast,Household,Flashlights,Post-Storm,9,12.49,112.41
+T100902,2025-09-07,ST015,Midwest,Beverages,Bottled Water,Normal,26,5.49,142.74
+T100903,2025-10-03,ST017,Northeast,Household,Paper Towels,Normal,5,9.29,46.45
+T100904,2025-09-09,ST018,Northeast,Beverages,Bottled Water,Normal,19,5.49,104.31
+T100905,2025-09-07,ST012,Midwest,Beverages,Orange Juice,Watch,25,4.19,104.75
+T100906,2025-08-31,ST017,Northeast,Family & Leisure,Puzzles,Watch,8,11.99,95.92
+T100907,2025-08-27,ST012,Midwest,Family & Leisure,Playing Cards,Watch,7,2.99,20.93
+T100908,2025-10-01,ST014,Midwest,Family & Leisure,Playing Cards,Warning,11,2.99,32.89
+T100909,2025-09-16,ST001,South,Family & Leisure,Board Games,Normal,9,19.99,179.91
+T100910,2025-08-29,ST002,South,Breakfast Foods,Strawberry Pop-Tarts,Normal,21,3.48,73.08
+T100911,2025-08-30,ST010,Southeast,Household,Batteries,Warning,19,8.99,170.81
+T100912,2025-10-03,ST010,Southeast,Beverages,Orange Juice,Normal,19,4.19,79.61
+T100913,2025-09-17,ST004,South,Family & Leisure,Puzzles,Watch,8,11.99,95.92
+T100914,2025-09-03,ST018,Northeast,Snacks,Chips,Normal,14,3.79,53.06
+T100915,2025-10-03,ST010,Southeast,Breakfast Foods,Cereal,Normal,13,4.89,63.57
+T100916,2025-10-02,ST011,Midwest,Family & Leisure,Board Games,Normal,9,19.99,179.91
+T100917,2025-09-05,ST007,Southeast,Family & Leisure,Playing Cards,Warning,8,2.99,23.92
+T100918,2025-09-29,ST012,Midwest,Family & Leisure,Puzzles,Watch,9,11.99,107.91
+T100919,2025-09-01,ST007,Southeast,Household,Flashlights,Normal,9,12.49,112.41
+T100920,2025-10-02,ST003,South,Beverages,Bottled Water,Watch,40,5.49,219.6
+T100921,2025-08-27,ST013,Midwest,Breakfast Foods,Cereal,Normal,14,4.89,68.46
+T100922,2025-09-05,ST005,South,Beverages,Orange Juice,Warning,26,4.19,108.94
+T100923,2025-08-20,ST011,Midwest,Snacks,Granola Bars,Post-Storm,10,4.39,43.9
+T100924,2025-08-22,ST005,South,Household,Paper Towels,Normal,11,9.29,102.19
+T100925,2025-09-29,ST020,Northeast,Household,Flashlights,Warning,8,12.49,99.92
+T100926,2025-09-24,ST012,Midwest,Breakfast Foods,Instant Oatmeal,Normal,17,3.99,67.83
+T100927,2025-09-03,ST006,Southeast,Family & Leisure,Board Games,Warning,15,19.99,299.85
+T100928,2025-08-30,ST014,Midwest,Family & Leisure,Puzzles,Normal,8,11.99,95.92
+T100929,2025-09-11,ST008,Southeast,Beverages,Orange Juice,Normal,13,4.19,54.47
+T100930,2025-09-12,ST010,Southeast,Beverages,Orange Juice,Normal,19,4.19,79.61
+T100931,2025-09-24,ST001,South,Breakfast Foods,Instant Oatmeal,Normal,7,3.99,27.93
+T100932,2025-09-04,ST020,Northeast,Family & Leisure,Board Games,Post-Storm,4,19.99,79.96
+T100933,2025-10-02,ST011,Midwest,Snacks,Chips,Normal,9,3.79,34.11
+T100934,2025-09-23,ST010,Southeast,Breakfast Foods,Instant Oatmeal,Warning,18,3.99,71.82
+T100935,2025-09-12,ST017,Northeast,Family & Leisure,Playing Cards,Normal,3,2.99,8.97
+T100936,2025-09-07,ST007,Southeast,Household,Paper Towels,Normal,9,9.29,83.61
+T100937,2025-08-26,ST006,Southeast,Family & Leisure,Puzzles,Normal,10,11.99,119.9
+T100938,2025-08-24,ST007,Southeast,Beverages,Orange Juice,Normal,13,4.19,54.47
+T100939,2025-08-26,ST007,Southeast,Family & Leisure,Puzzles,Warning,11,11.99,131.89
+T100940,2025-09-16,ST003,South,Beverages,Bottled Water,Normal,24,5.49,131.76
+T100941,2025-09-10,ST002,South,Breakfast Foods,Strawberry Pop-Tarts,Normal,17,3.48,59.16
+T100942,2025-09-05,ST018,Northeast,Breakfast Foods,Instant Oatmeal,Warning,18,3.99,71.82
+T100943,2025-09-05,ST014,Midwest,Snacks,Cookies,Watch,14,3.49,48.86
+T100944,2025-09-16,ST011,Midwest,Breakfast Foods,Cereal,Watch,14,4.89,68.46
+T100945,2025-09-23,ST001,South,Family & Leisure,Board Games,Watch,4,19.99,79.96
+T100946,2025-09-26,ST002,South,Breakfast Foods,Cereal,Post-Storm,7,4.89,34.23
+T100947,2025-08-26,ST010,Southeast,Household,Paper Towels,Normal,17,9.29,157.93
+T100948,2025-09-17,ST013,Midwest,Snacks,Granola Bars,Normal,7,4.39,30.73
+T100949,2025-08-30,ST018,Northeast,Beverages,Bottled Water,Watch,29,5.49,159.21
+T100950,2025-09-23,ST010,Southeast,Beverages,Sports Drink,Watch,24,2.29,54.96
+T100951,2025-09-30,ST012,Midwest,Breakfast Foods,Instant Oatmeal,Warning,13,3.99,51.87
+T100952,2025-08-29,ST004,South,Breakfast Foods,Strawberry Pop-Tarts,Normal,17,3.48,59.16
+T100953,2025-09-14,ST018,Northeast,Family & Leisure,Board Games,Normal,5,19.99,99.95
+T100954,2025-09-11,ST007,Southeast,Snacks,Granola Bars,Warning,27,4.39,118.53
+T100955,2025-08-29,ST006,Southeast,Beverages,Bottled Water,Watch,30,5.49,164.7
+T100956,2025-09-05,ST007,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Watch,27,3.48,93.96
+T100957,2025-09-25,ST002,South,Family & Leisure,Playing Cards,Watch,17,2.99,50.83
+T100958,2025-08-24,ST010,Southeast,Breakfast Foods,Cereal,Normal,18,4.89,88.02
+T100959,2025-09-26,ST016,Northeast,Household,Flashlights,Normal,11,12.49,137.39
+T100960,2025-09-30,ST008,Southeast,Breakfast Foods,Cereal,Watch,12,4.89,58.68
+T100961,2025-09-01,ST011,Midwest,Snacks,Cookies,Normal,12,3.49,41.88
+T100962,2025-10-01,ST010,Southeast,Family & Leisure,Board Games,Normal,11,19.99,219.89
+T100963,2025-09-12,ST011,Midwest,Snacks,Chips,Normal,9,3.79,34.11
+T100964,2025-09-04,ST008,Southeast,Snacks,Cookies,Warning,18,3.49,62.82
+T100965,2025-08-28,ST011,Midwest,Snacks,Cookies,Normal,14,3.49,48.86
+T100966,2025-09-08,ST016,Northeast,Family & Leisure,Board Games,Normal,5,19.99,99.95
+T100967,2025-09-27,ST003,South,Household,Batteries,Warning,21,8.99,188.79
+T100968,2025-09-01,ST009,Southeast,Breakfast Foods,Instant Oatmeal,Normal,14,3.99,55.86
+T100969,2025-08-21,ST017,Northeast,Breakfast Foods,Instant Oatmeal,Normal,8,3.99,31.92
+T100970,2025-09-26,ST007,Southeast,Breakfast Foods,Instant Oatmeal,Normal,8,3.99,31.92
+T100971,2025-09-23,ST016,Northeast,Beverages,Sports Drink,Normal,15,2.29,34.35
+T100972,2025-09-26,ST010,Southeast,Beverages,Sports Drink,Normal,18,2.29,41.22
+T100973,2025-08-25,ST013,Midwest,Household,Paper Towels,Normal,4,9.29,37.16
+T100974,2025-09-04,ST020,Northeast,Beverages,Orange Juice,Normal,17,4.19,71.23
+T100975,2025-08-30,ST006,Southeast,Family & Leisure,Puzzles,Watch,10,11.99,119.9
+T100976,2025-08-29,ST016,Northeast,Household,Batteries,Normal,8,8.99,71.92
+T100977,2025-09-20,ST008,Southeast,Breakfast Foods,Cereal,Normal,8,4.89,39.12
+T100978,2025-08-22,ST007,Southeast,Family & Leisure,Playing Cards,Normal,5,2.99,14.95
+T100979,2025-09-18,ST002,South,Breakfast Foods,Instant Oatmeal,Normal,14,3.99,55.86
+T100980,2025-09-22,ST009,Southeast,Household,Paper Towels,Normal,9,9.29,83.61
+T100981,2025-08-31,ST013,Midwest,Snacks,Cookies,Watch,17,3.49,59.33
+T100982,2025-08-24,ST017,Northeast,Household,Flashlights,Post-Storm,9,12.49,112.41
+T100983,2025-09-03,ST017,Northeast,Snacks,Cookies,Warning,9,3.49,31.41
+T100984,2025-09-11,ST016,Northeast,Snacks,Granola Bars,Normal,11,4.39,48.29
+T100985,2025-08-28,ST015,Midwest,Beverages,Bottled Water,Normal,19,5.49,104.31
+T100986,2025-09-30,ST009,Southeast,Beverages,Bottled Water,Normal,24,5.49,131.76
+T100987,2025-09-12,ST020,Northeast,Breakfast Foods,Instant Oatmeal,Normal,16,3.99,63.84
+T100988,2025-09-10,ST004,South,Snacks,Granola Bars,Normal,13,4.39,57.07
+T100989,2025-09-02,ST019,Northeast,Beverages,Orange Juice,Warning,19,4.19,79.61
+T100990,2025-08-21,ST008,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Normal,22,3.48,76.56
+T100991,2025-08-30,ST005,South,Family & Leisure,Board Games,Warning,18,19.99,359.82
+T100992,2025-08-29,ST002,South,Beverages,Sports Drink,Post-Storm,17,2.29,38.93
+T100993,2025-09-22,ST013,Midwest,Family & Leisure,Puzzles,Watch,10,11.99,119.9
+T100994,2025-10-01,ST010,Southeast,Breakfast Foods,Strawberry Pop-Tarts,Normal,17,3.48,59.16
+T100995,2025-09-19,ST016,Northeast,Beverages,Bottled Water,Warning,31,5.49,170.19
+T100996,2025-09-27,ST005,South,Family & Leisure,Board Games,Watch,10,19.99,199.9
+T100997,2025-09-21,ST009,Southeast,Beverages,Orange Juice,Watch,30,4.19,125.7
+T100998,2025-09-18,ST020,Northeast,Family & Leisure,Board Games,Normal,7,19.99,139.93
+T100999,2025-09-13,ST005,South,Breakfast Foods,Strawberry Pop-Tarts,Normal,17,3.48,59.16
