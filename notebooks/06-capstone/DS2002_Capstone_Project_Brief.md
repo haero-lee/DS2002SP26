@@ -20,9 +20,10 @@ Your team has been brought in as the city's data consultants. You have raw data,
 - **Group size:** 3-4 students
 - **Duration:** 4 weeks
 - **Language:** Python (all work must be in Python)
-- **Environment:** Kaggle Notebook
+- **Environment:** Google Colab (recommended) or Kaggle Notebook
 - **Required libraries:** `pandas`, `matplotlib` and/or `seaborn`, `sqlite3`, `requests`, `google-cloud-storage`
 - **Cloud services:** Google Cloud Storage (GCS) — provided via course GCP project
+- **Authentication:** Your `@virginia.edu` Google account (no separate keys needed)
 
 ---
 
@@ -31,7 +32,7 @@ Your team has been brought in as the city's data consultants. You have raw data,
 Your capstone must follow this pipeline. Every team does the same pattern.
 
 ```
-Kaggle Notebook
+Google Colab or Kaggle Notebook
     |
     |-- google-cloud-storage (Python SDK)
     |
@@ -66,7 +67,7 @@ Analysis + Visualization (pandas, matplotlib, seaborn)
 1. Your raw data lives in a GCS bucket, not on your local machine.
 2. You download it programmatically from GCS using Python — not by clicking a download button.
 3. After cleaning, you upload your cleaned files back to your team folder in GCS.
-4. You authenticate to GCS using a service account key provided to your team.
+4. You authenticate to GCS using your own `@virginia.edu` Google account (from Colab: one click; from Kaggle: access token).
 
 This is the same pattern used in production data pipelines at companies that process data at scale. The only difference is scale — you are working with thousands of rows instead of billions.
 
@@ -289,7 +290,7 @@ Answer each question thoughtfully (one solid paragraph minimum per question).
 - **Show your work.** We want to see the messy data, your cleaning steps, and the clean result. Do not just show the final output.
 - **Comment your code** where logic is non-obvious, but avoid narrating every line.
 - **Cite your API source** and include the base URL you used.
-- **Do not share your team's GCS service account key** outside your team. Treat it like a password.
+- **Do not share access tokens** in public channels. They expire quickly, but treat them like short-lived passwords.
 - The supplied data is synthetic but designed to mirror patterns you would see in real municipal EV charging networks.
 
 ---

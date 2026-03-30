@@ -60,12 +60,12 @@ You have two types of access:
 - You cannot create or delete projects, spin up expensive services, or change IAM settings.
 - You will not be charged for anything. The instructor's project credits cover all usage.
 
-### Programmatic Access (team service account key)
-- Your team received a JSON key file (something like `ds2002-team-05-key.json`).
-- This key is used in your Kaggle notebook to authenticate with GCS via Python.
-- **Do not share this key outside your team. Do not commit it to a public repo.**
+### Programmatic Access (your own Google account)
+- You authenticate from your notebook using the same `@virginia.edu` account.
+- **From Google Colab:** one-click authentication built in (recommended).
+- **From Kaggle:** you generate a short-lived access token and paste it as a Kaggle Secret.
 
-Think of your UVA email as your "badge to walk around the building" and the service account key as the "API password your code uses."
+Your UVA email is both your "badge to walk around the building" and the identity your code uses. No separate keys to manage.
 
 ---
 
@@ -81,19 +81,14 @@ Your team folder already exists in the bucket (created by the setup script), but
 
 [SCREENSHOT: Team folder view with Upload Files button highlighted]
 
-### From Your Kaggle Notebook (programmatic — you will do this in the April 1 lab)
+### From Google Colab (recommended — easiest path)
 
 ```python
+from google.colab import auth
+auth.authenticate_user()
+
 from google.cloud import storage
-import json
-
-# Load your team's service account key from Kaggle Secrets
-from kaggle_secrets import UserSecretsClient
-secrets = UserSecretsClient()
-key_json = secrets.get_secret("gcs_key")
-
-# Authenticate
-client = storage.Client.from_service_account_info(json.loads(key_json))
+client = storage.Client(project="ds2002sp26")
 bucket = client.bucket("ds2002-capstone-sp26")
 
 # List files in your team folder
@@ -102,32 +97,51 @@ for b in blobs:
     print(b.name)
 ```
 
-You will set up the Kaggle Secret in the next section.
+When you run `auth.authenticate_user()`, Colab will pop up a Google sign-in window. Sign in with your `@virginia.edu` account. That is it.
+
+### From Kaggle (requires a token)
+
+Kaggle does not have built-in Google auth, so you need to generate a short-lived access token on your own machine and paste it as a Kaggle Secret.
+
+**Step 1:** On your laptop, open a terminal and run:
+
+```bash
+gcloud auth login
+gcloud auth print-access-token
+```
+
+This prints a long token string. Copy it.
+
+**Step 2:** In your Kaggle notebook, go to **Add-ons > Secrets**, click **Add a new secret**, set the Label to `gcs_token`, and paste the token as the Value.
+
+**Step 3:** In your notebook:
+
+```python
+from google.cloud import storage
+from google.oauth2.credentials import Credentials
+from kaggle_secrets import UserSecretsClient
+
+secrets = UserSecretsClient()
+token = secrets.get_secret("gcs_token")
+creds = Credentials(token=token)
+client = storage.Client(project="ds2002sp26", credentials=creds)
+bucket = client.bucket("ds2002-capstone-sp26")
+```
+
+**Important:** Access tokens expire after ~1 hour. If your notebook stops authenticating, generate a fresh token and update the Kaggle Secret. For long work sessions, Colab is easier.
 
 ---
 
-## 5. Adding Your Service Account Key to Kaggle
+## 5. Which Platform Should I Use?
 
-Kaggle has a Secrets feature that stores sensitive values (like API keys) so you do not paste them directly into your notebook.
+| | **Google Colab** | **Kaggle** |
+|---|---|---|
+| GCS authentication | One click, built in | Manual token, expires hourly |
+| Google account integration | Native | Requires workaround |
+| Free GPU/TPU | Yes | Yes |
+| Familiar from class | Maybe | Yes (used for midterm) |
 
-1. Open your Kaggle notebook.
-2. Click the **Add-ons** menu at the top, then select **Secrets**.
-3. Click **Add a new secret**.
-4. Set the **Label** to: `gcs_key`
-5. Open your team's JSON key file in a text editor, **copy the entire contents**, and paste it into the **Value** field.
-6. Click **Save**.
-
-[SCREENSHOT: Kaggle Secrets panel with gcs_key entry]
-
-Now your notebook can retrieve the key with:
-
-```python
-from kaggle_secrets import UserSecretsClient
-secrets = UserSecretsClient()
-key_json = secrets.get_secret("gcs_key")
-```
-
-**Important:** Every team member should add the same key to their own Kaggle account if they are running the notebook individually. If you are sharing a single notebook, only one person needs to add it.
+**Recommendation:** Use **Colab** for anything involving GCS. You can still use Kaggle for non-cloud work if you prefer it.
 
 ---
 
@@ -228,7 +242,8 @@ An e2-micro VM is free-tier eligible, but if you leave it running 24/7 for weeks
 |------|-------|
 | Browse bucket and files | Console > Cloud Storage > Buckets |
 | Check your IAM roles | Console > IAM & Admin > IAM |
-| Authenticate from Python | `storage.Client.from_service_account_info(...)` |
+| Authenticate from Colab | `from google.colab import auth; auth.authenticate_user()` |
+| Authenticate from Kaggle | Use `gcloud auth print-access-token` + Kaggle Secret |
 | Download a file | `bucket.blob("path").download_to_filename("local")` |
 | Upload a file | `bucket.blob("path").upload_from_filename("local")` |
 | List files in a folder | `bucket.list_blobs(prefix="team-XX/")` |
