@@ -1,6 +1,6 @@
 # GCP Console Walkthrough — DS2002 Capstone
 
-This guide walks you through the Google Cloud Platform tools you will use in the capstone. Keep it open as a reference. You will do most of your actual work from a Kaggle notebook using Python, but understanding the Console gives you visibility into what is happening on the cloud side.
+This guide walks you through the Google Cloud Platform tools you will use in the capstone. Keep it open as a reference. You will do most of your actual work from a Google Colab notebook using Python, but understanding the Console gives you visibility into what is happening on the cloud side.
 
 ---
 
@@ -60,12 +60,12 @@ You have two types of access:
 - You cannot create or delete projects, spin up expensive services, or change IAM settings.
 - You will not be charged for anything. The instructor's project credits cover all usage.
 
-### Programmatic Access (your own Google account)
-- You authenticate from your notebook using the same `@virginia.edu` account.
-- **From Google Colab:** one-click authentication built in (recommended).
-- **From Kaggle:** you generate a short-lived access token and paste it as a Kaggle Secret.
+### Programmatic Access (your own Google account from Colab)
+- You authenticate from your Colab notebook using the same `@virginia.edu` account.
+- One line of code: `from google.colab import auth; auth.authenticate_user()`
+- A Google sign-in window pops up. Sign in. Done.
 
-Your UVA email is both your "badge to walk around the building" and the identity your code uses. No separate keys to manage.
+Your UVA email is both your "badge to walk around the building" and the identity your code uses. No keys, no tokens, no extra tools.
 
 ---
 
@@ -81,7 +81,7 @@ Your team folder already exists in the bucket (created by the setup script), but
 
 [SCREENSHOT: Team folder view with Upload Files button highlighted]
 
-### From Google Colab (recommended — easiest path)
+### From Your Colab Notebook (you will do this in the April 1 lab)
 
 ```python
 from google.colab import auth
@@ -97,51 +97,7 @@ for b in blobs:
     print(b.name)
 ```
 
-When you run `auth.authenticate_user()`, Colab will pop up a Google sign-in window. Sign in with your `@virginia.edu` account. That is it.
-
-### From Kaggle (requires a token)
-
-Kaggle does not have built-in Google auth, so you need to generate a short-lived access token on your own machine and paste it as a Kaggle Secret.
-
-**Step 1:** On your laptop, open a terminal and run:
-
-```bash
-gcloud auth login
-gcloud auth print-access-token
-```
-
-This prints a long token string. Copy it.
-
-**Step 2:** In your Kaggle notebook, go to **Add-ons > Secrets**, click **Add a new secret**, set the Label to `gcs_token`, and paste the token as the Value.
-
-**Step 3:** In your notebook:
-
-```python
-from google.cloud import storage
-from google.oauth2.credentials import Credentials
-from kaggle_secrets import UserSecretsClient
-
-secrets = UserSecretsClient()
-token = secrets.get_secret("gcs_token")
-creds = Credentials(token=token)
-client = storage.Client(project="ds2002sp26", credentials=creds)
-bucket = client.bucket("ds2002-capstone-sp26")
-```
-
-**Important:** Access tokens expire after ~1 hour. If your notebook stops authenticating, generate a fresh token and update the Kaggle Secret. For long work sessions, Colab is easier.
-
----
-
-## 5. Which Platform Should I Use?
-
-| | **Google Colab** | **Kaggle** |
-|---|---|---|
-| GCS authentication | One click, built in | Manual token, expires hourly |
-| Google account integration | Native | Requires workaround |
-| Free GPU/TPU | Yes | Yes |
-| Familiar from class | Maybe | Yes (used for midterm) |
-
-**Recommendation:** Use **Colab** for anything involving GCS. You can still use Kaggle for non-cloud work if you prefer it.
+When you run `auth.authenticate_user()`, Colab will pop up a Google sign-in window. Sign in with your `@virginia.edu` account. That is it. No tokens, no CLI tools, no expiration to worry about.
 
 ---
 
@@ -213,7 +169,6 @@ The idea: instead of running SQLite locally in your notebook, you spin up a smal
    - **Boot disk:** Debian GNU/Linux, 10 GB
 4. Click **Create**.
 
-[SCREENSHOT: VM creation page with e2-micro selected]
 
 5. Once the VM is running, click **SSH** to open a terminal in the browser.
 6. In the SSH terminal:
@@ -243,7 +198,6 @@ An e2-micro VM is free-tier eligible, but if you leave it running 24/7 for weeks
 | Browse bucket and files | Console > Cloud Storage > Buckets |
 | Check your IAM roles | Console > IAM & Admin > IAM |
 | Authenticate from Colab | `from google.colab import auth; auth.authenticate_user()` |
-| Authenticate from Kaggle | Use `gcloud auth print-access-token` + Kaggle Secret |
 | Download a file | `bucket.blob("path").download_to_filename("local")` |
 | Upload a file | `bucket.blob("path").upload_from_filename("local")` |
 | List files in a folder | `bucket.list_blobs(prefix="team-XX/")` |

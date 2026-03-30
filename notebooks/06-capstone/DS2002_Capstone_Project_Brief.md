@@ -20,7 +20,7 @@ Your team has been brought in as the city's data consultants. You have raw data,
 - **Group size:** 3-4 students
 - **Duration:** 4 weeks
 - **Language:** Python (all work must be in Python)
-- **Environment:** Google Colab (recommended) or Kaggle Notebook
+- **Environment:** Google Colab
 - **Required libraries:** `pandas`, `matplotlib` and/or `seaborn`, `sqlite3`, `requests`, `google-cloud-storage`
 - **Cloud services:** Google Cloud Storage (GCS) — provided via course GCP project
 - **Authentication:** Your `@virginia.edu` Google account (no separate keys needed)
@@ -32,7 +32,7 @@ Your team has been brought in as the city's data consultants. You have raw data,
 Your capstone must follow this pipeline. Every team does the same pattern.
 
 ```
-Google Colab or Kaggle Notebook
+Google Colab Notebook
     |
     |-- google-cloud-storage (Python SDK)
     |
@@ -67,7 +67,7 @@ Analysis + Visualization (pandas, matplotlib, seaborn)
 1. Your raw data lives in a GCS bucket, not on your local machine.
 2. You download it programmatically from GCS using Python — not by clicking a download button.
 3. After cleaning, you upload your cleaned files back to your team folder in GCS.
-4. You authenticate to GCS using your own `@virginia.edu` Google account (from Colab: one click; from Kaggle: access token).
+4. You authenticate to GCS using your own `@virginia.edu` Google account — one click from Colab.
 
 This is the same pattern used in production data pipelines at companies that process data at scale. The only difference is scale — you are working with thousands of rows instead of billions.
 
@@ -184,7 +184,7 @@ In addition to the analytical work, your team must demonstrate the cloud pipelin
 
 ### Cloud Checkpoint (Required)
 
-- Working GCS authentication from your Kaggle notebook
+- Working GCS authentication from your Colab notebook
 - Your team folder exists in the bucket and contains at least one uploaded file
 - You can programmatically list, download, and upload files to your team folder
 - Your cleaned data files are uploaded to your team folder in GCS
@@ -195,7 +195,7 @@ In addition to the analytical work, your team must demonstrate the cloud pipelin
 
 ### 1. Python Notebook
 
-A single Kaggle notebook (`.ipynb`) containing:
+A single Colab notebook (`.ipynb`) containing:
 
 - **Cloud Setup:** GCS authentication, downloading raw data from the bucket, uploading cleaned data to your team folder
 - **Data Loading:** All CSVs loaded with pandas, SQLite queried with `sqlite3`, external API data pulled with `requests`
@@ -236,7 +236,7 @@ Answer each question thoughtfully (one solid paragraph minimum per question).
 ### Week 1: Cloud Setup, Data Ingestion, and Exploration
 
 - Read this brief thoroughly
-- Complete the GCP Console walkthrough and authenticate from Kaggle
+- Complete the GCP Console walkthrough and authenticate from Colab
 - Create your team folder in the GCS bucket
 - Download raw data from GCS programmatically
 - Explore the data: `.shape`, `.dtypes`, `.info()`, `.describe()`, `.isnull().sum()`
