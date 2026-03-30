@@ -1,6 +1,6 @@
 # GCP Console Walkthrough — DS2002 Capstone
 
-This guide walks you through the Google Cloud Platform tools you will use in the capstone. Keep it open as a reference. You will do most of your actual work from a Kaggle notebook using Python, but understanding the Console gives you visibility into what is happening on the cloud side.
+This guide walks you through the Google Cloud Platform tools you will use in the capstone. Keep it open as a reference. You will do most of your actual work from a Google Colab notebook using Python, but understanding the Console gives you visibility into what is happening on the cloud side.
 
 ---
 
@@ -12,7 +12,7 @@ You have been granted access to the course GCP project using your UVA Google acc
 2. Sign in with your **@virginia.edu** email (or whichever Google account your instructor registered).
 3. After signing in, you should see the project selector in the top navigation bar. Click it and select the course project.
 
-[SCREENSHOT: GCP Console top bar with project selector dropdown]
+![GCP Console — Cloud Storage overview](console.png)
 
 If you do not see the course project listed, contact your instructor. It means your email has not been added to the project IAM yet.
 
@@ -26,7 +26,7 @@ Cloud Storage is where your raw data and team files live.
 2. You should see a bucket named `ds2002-capstone-sp26`.
 3. Click on the bucket name to open it.
 
-[SCREENSHOT: Cloud Storage bucket list showing ds2002-capstone-sp26]
+![Bucket contents — raw-data and team folders](bucket.png)
 
 Inside the bucket you will see:
 
@@ -44,7 +44,6 @@ ds2002-capstone-sp26/
   team-20/                 <- Team 20's workspace
 ```
 
-[SCREENSHOT: Bucket contents showing raw-data/ and team folders]
 
 **You can read anything in the bucket.** You can only write to your own team folder. If you try to delete or overwrite something in `raw-data/` or another team's folder, it will fail.
 
@@ -60,12 +59,12 @@ You have two types of access:
 - You cannot create or delete projects, spin up expensive services, or change IAM settings.
 - You will not be charged for anything. The instructor's project credits cover all usage.
 
-### Programmatic Access (team service account key)
-- Your team received a JSON key file (something like `ds2002-team-05-key.json`).
-- This key is used in your Kaggle notebook to authenticate with GCS via Python.
-- **Do not share this key outside your team. Do not commit it to a public repo.**
+### Programmatic Access (your own Google account from Colab)
+- You authenticate from your Colab notebook using the same `@virginia.edu` account.
+- One line of code: `from google.colab import auth; auth.authenticate_user()`
+- A Google sign-in window pops up. Sign in. Done.
 
-Think of your UVA email as your "badge to walk around the building" and the service account key as the "API password your code uses."
+Your UVA email is both your "badge to walk around the building" and the identity your code uses. No keys, no tokens, no extra tools.
 
 ---
 
@@ -79,21 +78,16 @@ Your team folder already exists in the bucket (created by the setup script), but
 2. You should see a `.keep` placeholder file.
 3. Click **Upload Files** and upload any small text file to confirm write access works.
 
-[SCREENSHOT: Team folder view with Upload Files button highlighted]
+![Team folder in the bucket](bucket.png)
 
-### From Your Kaggle Notebook (programmatic — you will do this in the April 1 lab)
+### From Your Colab Notebook (you will do this in the April 1 lab)
 
 ```python
+from google.colab import auth
+auth.authenticate_user()
+
 from google.cloud import storage
-import json
-
-# Load your team's service account key from Kaggle Secrets
-from kaggle_secrets import UserSecretsClient
-secrets = UserSecretsClient()
-key_json = secrets.get_secret("gcs_key")
-
-# Authenticate
-client = storage.Client.from_service_account_info(json.loads(key_json))
+client = storage.Client(project="ds2002sp26")
 bucket = client.bucket("ds2002-capstone-sp26")
 
 # List files in your team folder
@@ -102,32 +96,7 @@ for b in blobs:
     print(b.name)
 ```
 
-You will set up the Kaggle Secret in the next section.
-
----
-
-## 5. Adding Your Service Account Key to Kaggle
-
-Kaggle has a Secrets feature that stores sensitive values (like API keys) so you do not paste them directly into your notebook.
-
-1. Open your Kaggle notebook.
-2. Click the **Add-ons** menu at the top, then select **Secrets**.
-3. Click **Add a new secret**.
-4. Set the **Label** to: `gcs_key`
-5. Open your team's JSON key file in a text editor, **copy the entire contents**, and paste it into the **Value** field.
-6. Click **Save**.
-
-[SCREENSHOT: Kaggle Secrets panel with gcs_key entry]
-
-Now your notebook can retrieve the key with:
-
-```python
-from kaggle_secrets import UserSecretsClient
-secrets = UserSecretsClient()
-key_json = secrets.get_secret("gcs_key")
-```
-
-**Important:** Every team member should add the same key to their own Kaggle account if they are running the notebook individually. If you are sharing a single notebook, only one person needs to add it.
+When you run `auth.authenticate_user()`, Colab will pop up a Google sign-in window. Sign in with your `@virginia.edu` account. That is it. No tokens, no CLI tools, no expiration to worry about.
 
 ---
 
@@ -199,7 +168,6 @@ The idea: instead of running SQLite locally in your notebook, you spin up a smal
    - **Boot disk:** Debian GNU/Linux, 10 GB
 4. Click **Create**.
 
-[SCREENSHOT: VM creation page with e2-micro selected]
 
 5. Once the VM is running, click **SSH** to open a terminal in the browser.
 6. In the SSH terminal:
@@ -228,7 +196,7 @@ An e2-micro VM is free-tier eligible, but if you leave it running 24/7 for weeks
 |------|-------|
 | Browse bucket and files | Console > Cloud Storage > Buckets |
 | Check your IAM roles | Console > IAM & Admin > IAM |
-| Authenticate from Python | `storage.Client.from_service_account_info(...)` |
+| Authenticate from Colab | `from google.colab import auth; auth.authenticate_user()` |
 | Download a file | `bucket.blob("path").download_to_filename("local")` |
 | Upload a file | `bucket.blob("path").upload_from_filename("local")` |
 | List files in a folder | `bucket.list_blobs(prefix="team-XX/")` |
