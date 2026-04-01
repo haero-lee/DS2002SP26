@@ -18,6 +18,16 @@ This is **not required** for the capstone. It is here for teams that want to go 
 
 1. Open the GCP Console: [https://console.cloud.google.com](https://console.cloud.google.com).
 2. Select the course project (`ds2002sp26`) from the project selector at the top.
+
+   > **If you do not see `ds2002sp26` in the list:**
+   > The project selector defaults to showing only projects inside your current organization (usually `virginia.edu`). The course project may live under a different organization or under **No organization**.
+   >
+   > - Click the project selector dropdown at the very top of the page.
+   > - In the dialog that opens, look for an **organization switcher** or a row of tabs labeled with org names (e.g., `virginia.edu`, `No organization`, `All`).
+   > - Click **All** to see every project your account has been granted access to, regardless of organization.
+   > - Find `ds2002sp26` in the list and click it.
+   >
+   > If it still does not appear after clicking **All**, your `@virginia.edu` email has not been added to the project IAM yet — contact your instructor.
 3. In the left navigation menu, click **Compute Engine** → **VM instances**.
 4. Click **Create Instance** at the top.
 

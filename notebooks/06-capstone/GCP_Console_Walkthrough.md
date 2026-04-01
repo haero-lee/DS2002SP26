@@ -10,11 +10,18 @@ You have been granted access to the course GCP project using your UVA Google acc
 
 1. Open your browser and go to [https://console.cloud.google.com](https://console.cloud.google.com).
 2. Sign in with your **@virginia.edu** email (or whichever Google account your instructor registered).
-3. After signing in, you should see the project selector in the top navigation bar. Click it and select the course project.
+3. After signing in, you should see the project selector in the top navigation bar. Click it.
+
+   > **If you do not see `ds2002sp26` in the list:**
+   > The project selector defaults to showing only projects inside your current organization (usually `virginia.edu`). The course project may live under a different organization or under **No organization**.
+   >
+   > - In the dialog that opens, look for an **organization switcher** or a row of tabs labeled with org names (e.g., `virginia.edu`, `No organization`, `All`).
+   > - Click **All** to see every project your account has been granted access to, regardless of organization.
+   > - Find `ds2002sp26` in the list and click it.
+   >
+   > If it still does not appear after clicking **All**, your `@virginia.edu` email has not been added to the project IAM yet — contact your instructor.
 
 ![GCP Console — Cloud Storage overview](console.png)
-
-If you do not see the course project listed, contact your instructor. It means your email has not been added to the project IAM yet.
 
 ---
 
