@@ -37,7 +37,7 @@ Google Colab Notebook
     |-- google-cloud-storage (Python SDK)
     |
     v
-GCS Bucket: ds2002-capstone-sp26
+GCS Bucket: ds2002-capstone-sp26-v2
     |-- raw-data/              (instructor-provided, read-only for you)
     |   |-- charging_sessions.csv
     |   |-- station_locations.csv

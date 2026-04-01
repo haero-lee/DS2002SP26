@@ -23,7 +23,7 @@ If you do not see the course project listed, contact your instructor. It means y
 Cloud Storage is where your raw data and team files live.
 
 1. In the left sidebar (or the hamburger menu), click **Cloud Storage** > **Buckets**.
-2. You should see a bucket named `ds2002-capstone-sp26`.
+2. You should see a bucket named `ds2002-capstone-sp26-v2`.
 3. Click on the bucket name to open it.
 
 ![Bucket contents — raw-data and team folders](bucket.png)
@@ -31,7 +31,7 @@ Cloud Storage is where your raw data and team files live.
 Inside the bucket you will see:
 
 ```
-ds2002-capstone-sp26/
+ds2002-capstone-sp26-v2/
   raw-data/                <- instructor-provided data (read these, do not modify)
     charging_sessions.csv
     station_locations.csv
@@ -87,8 +87,8 @@ from google.colab import auth
 auth.authenticate_user()
 
 from google.cloud import storage
-client = storage.Client(project="ds2002sp26")
-bucket = client.bucket("ds2002-capstone-sp26")
+client = storage.Client(project="ds2002-492012")
+bucket = client.bucket("ds2002-capstone-sp26-v2")
 
 # List files in your team folder
 blobs = list(bucket.list_blobs(prefix="team-05/"))
@@ -107,7 +107,7 @@ Once authenticated, downloading files from the bucket is straightforward:
 ```python
 import os
 
-bucket = client.bucket("ds2002-capstone-sp26")
+bucket = client.bucket("ds2002-capstone-sp26-v2")
 
 files_to_download = [
     "raw-data/charging_sessions.csv",
@@ -146,7 +146,7 @@ files_to_upload = [
 for filename in files_to_upload:
     blob = bucket.blob(f"{team_prefix}/{filename}")
     blob.upload_from_filename(filename)
-    print(f"Uploaded {filename} -> gs://ds2002-capstone-sp26/{team_prefix}/{filename}")
+    print(f"Uploaded {filename} -> gs://ds2002-capstone-sp26-v2/{team_prefix}/{filename}")
 ```
 
 ---
@@ -174,7 +174,7 @@ The idea: instead of running SQLite locally in your notebook, you spin up a smal
 
 ```bash
 sudo apt-get update && sudo apt-get install -y sqlite3
-gsutil cp gs://ds2002-capstone-sp26/team-05/ev_analytics.db .
+gsutil cp gs://ds2002-capstone-sp26-v2/team-05/ev_analytics.db .
 sqlite3 ev_analytics.db "SELECT COUNT(*) FROM daily_demand_summary;"
 ```
 
